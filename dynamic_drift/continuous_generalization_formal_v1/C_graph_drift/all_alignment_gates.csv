@@ -1,0 +1,10 @@
+family,slug,plan_id,attempt,passed,target_pass_rate,severe_non_target_count,failed_target_axes,severe_non_target_axes,human_gate_failures,notes,generation
+C_graph_drift,c_graph_drift,8cd42fc3f840,1,False,0.5,1,['memory_revisit'],['language'],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],1
+C_graph_drift,c_graph_drift,224675f4cffe,2,False,0.5,1,['memory_revisit'],['language'],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],1
+C_graph_drift,c_graph_drift,4224604ebd4a,3,False,1.0,1,[],['language'],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],1
+C_graph_drift,c_graph_drift,a3cb11bf0d45,1,False,1.0,1,[],['language'],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],2
+C_graph_drift,c_graph_drift,e3b01b9b4646,2,False,1.0,1,[],['language'],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],2
+C_graph_drift,c_graph_drift,e67a6eaea8d5,3,True,1.0,0,[],[],[],['Qualified for detector sanity evaluation.'],2
+C_graph_drift,c_graph_drift,c70b38c4fc10,1,False,1.0,1,[],['language'],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],3
+C_graph_drift,c_graph_drift,62e96510f8d1,2,False,1.0,1,[],['language'],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],3
+C_graph_drift,c_graph_drift,14f1725bcb48,3,False,1.0,1,[],['language'],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],3

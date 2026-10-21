@@ -1,0 +1,9 @@
+user_id,user_name,family,family_generation,family_round,provider,model,temperature,reasoning_effort,graph_affinity,notification_reactivity,post_tendency,reply_tendency,revisit_tendency,exploration_tendency,traits_json
+c_graph_drift_g001_a02_224675f4_001,SidewalkSam_c_graph_drift_g1,C_graph_drift,1,1,gemini,gemini-3-flash-preview,0.4,medium,0.781,0.83,0.131,0.774,0.397,0.432,{}
+c_graph_drift_g001_a02_224675f4_005,PaperBagLunch_c_graph_drift_g1,C_graph_drift,1,1,gemini,gemini-3-flash-preview,0.4,medium,0.851,0.722,0.171,0.764,0.483,0.419,{}
+c_graph_drift_g001_a02_224675f4_008,TinyDeskFan_c_graph_drift_g1,C_graph_drift,1,1,gemini,gemini-3-pro-preview,0.8,medium,0.755,0.742,0.223,0.546,0.406,0.571,{}
+c_graph_drift_g001_a02_224675f4_002,DinerCoffee_c_graph_drift_g1,C_graph_drift,1,1,gemini,gemini-3-pro-preview,0.8,medium,0.763,0.776,0.155,0.636,0.621,0.391,{}
+c_graph_drift_g001_a02_224675f4_004,LakeErieGuy_c_graph_drift_g1,C_graph_drift,1,1,gemini,gemini-3-pro-preview,0.8,medium,0.804,0.768,0.303,0.74,0.547,0.303,{}
+c_graph_drift_g001_a02_224675f4_006,RainyWindow_c_graph_drift_g1,C_graph_drift,1,1,gemini,gemini-3-pro-preview,0.8,medium,0.686,0.693,0.075,0.527,0.434,0.459,{}
+c_graph_drift_g001_a02_224675f4_007,CheapHeadphones_c_graph_drift_g1,C_graph_drift,1,1,gemini,gemini-3-flash-preview,0.4,medium,0.789,0.665,0.228,0.774,0.454,0.367,{}
+c_graph_drift_g001_a02_224675f4_003,BusStopMia_c_graph_drift_g1,C_graph_drift,1,1,gemini,gemini-3-flash-preview,0.4,medium,0.722,0.785,0.178,0.58,0.332,0.588,{}

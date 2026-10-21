@@ -1,0 +1,17 @@
+{
+  "family": "C_graph_drift",
+  "slug": "c_graph_drift",
+  "plan_id": "a3cb11bf0d45",
+  "attempt": 1,
+  "passed": false,
+  "target_pass_rate": 1.0,
+  "severe_non_target_count": 1,
+  "failed_target_axes": [],
+  "severe_non_target_axes": [
+    "language"
+  ],
+  "human_gate_failures": [],
+  "notes": [
+    "Rejected from qualified detector set; keep under rejected attempts for analysis."
+  ]
+}

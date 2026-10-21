@@ -1,0 +1,15 @@
+{
+  "family": "C_graph_drift",
+  "slug": "c_graph_drift",
+  "plan_id": "e67a6eaea8d5",
+  "attempt": 3,
+  "passed": true,
+  "target_pass_rate": 1.0,
+  "severe_non_target_count": 0,
+  "failed_target_axes": [],
+  "severe_non_target_axes": [],
+  "human_gate_failures": [],
+  "notes": [
+    "Qualified for detector sanity evaluation."
+  ]
+}

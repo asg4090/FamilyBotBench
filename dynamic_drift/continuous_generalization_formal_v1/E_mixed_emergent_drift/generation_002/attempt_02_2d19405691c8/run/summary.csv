@@ -1,0 +1,26 @@
+metric,value
+agents_created,8
+browse_events,32
+post_written,3
+comment1_written,9
+comment2_written,8
+revisit_written,10
+skip_events,1
+llm_calls,31
+llm_fallbacks,0
+notifications_created,12
+dry_run,False
+api,responses
+provider,gemini
+model,mixed_per_persona
+provider_counts,"{""gemini"": 8}"
+model_counts,"{""gemini-3-flash-preview"": 4, ""gemini-3-pro-preview"": 4}"
+temperature_counts,"{""0.4"": 4, ""0.8"": 4}"
+reasoning_effort,medium
+browse_count,10
+rounds,4
+decision_mode,system_first
+generated_post_rows,3
+generated_comment_rows,27
+behavior_summary,"{""bot_count"": 8, ""generated_post_count"": 3, ""generated_comment1_count"": 9, ""generated_comment2_count"": 18, ""generated_comment_count"": 27, ""action_counts"": {""comment2"": 9, ""comment1"": 9, ""post"": 3, ""skip"": 1, ""revisit"": 10}, ""candidate_source_counts"": {""thread"": 5, ""feed"": 13, """": 3, ""skip"": 1, ""own_history"": 3, ""notification"": 7}, ""bot_to_bot_c1"": 4, ""bot_to_human_c1"": 5, ""bot_to_bot_c2"": 13, ""bot_to_human_c2"": 5, ""bot_to_bot_total"": 17, ""bot_to_human_total"": 10, ""notification_revisit_count"": 10, ""mean_browse_count"": 8.09375, ""mean_posts_per_bot"": 0.375, ""mean_comments_per_bot"": 3.375, ""mean_comment_words"": 28.697916666666668}"
+run_dir,dynamic_drift/continuous_generalization_formal_v1/E_mixed_emergent_drift/generation_002/attempt_02_2d19405691c8/run

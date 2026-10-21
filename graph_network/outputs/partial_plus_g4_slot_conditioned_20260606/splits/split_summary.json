@@ -1,0 +1,142 @@
+{
+  "run_dir": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606",
+  "splits_dir": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits",
+  "seed": 20260606,
+  "val_fraction": 0.2,
+  "counts": {
+    "users": 3107,
+    "known_users": 3107,
+    "original_known_users": 2907,
+    "generated_known_users": 200,
+    "families": {
+      "G1_population_calibrated": 50,
+      "G2_anchor_behavior": 50,
+      "G3_contextual_interactive": 50,
+      "G4_slot_conditioned": 50
+    },
+    "splits": 15
+  },
+  "splits": [
+    {
+      "split_name": "original_only_zero_shot",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/original_only_zero_shot.json",
+      "train": 2326,
+      "val": 581,
+      "test": 200,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "lofo_g1",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/lofo_g1.json",
+      "train": 2446,
+      "val": 611,
+      "test": 50,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "lofo_g2",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/lofo_g2.json",
+      "train": 2446,
+      "val": 611,
+      "test": 50,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "lofo_g3",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/lofo_g3.json",
+      "train": 2446,
+      "val": 611,
+      "test": 50,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "lofo_g4",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/lofo_g4.json",
+      "train": 2446,
+      "val": 611,
+      "test": 50,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_001pct",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/label_scarcity_001pct.json",
+      "train": 2329,
+      "val": 582,
+      "test": 196,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_005pct",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/label_scarcity_005pct.json",
+      "train": 2332,
+      "val": 583,
+      "test": 192,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_010pct",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/label_scarcity_010pct.json",
+      "train": 2342,
+      "val": 585,
+      "test": 180,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_025pct",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/label_scarcity_025pct.json",
+      "train": 2364,
+      "val": 591,
+      "test": 152,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_050pct",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/label_scarcity_050pct.json",
+      "train": 2406,
+      "val": 601,
+      "test": 100,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_100pct",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/label_scarcity_100pct.json",
+      "train": 2486,
+      "val": 621,
+      "test": 0,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "time_forward",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/time_forward.json",
+      "train": 192,
+      "val": 48,
+      "test": 50,
+      "unlabeled_visible": 2817
+    },
+    {
+      "split_name": "incremental_curriculum_order1",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/incremental_curriculum_order1.json",
+      "train": 2326,
+      "val": 581,
+      "test": 50,
+      "unlabeled_visible": 150
+    },
+    {
+      "split_name": "incremental_curriculum_order2",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/incremental_curriculum_order2.json",
+      "train": 2326,
+      "val": 581,
+      "test": 50,
+      "unlabeled_visible": 150
+    },
+    {
+      "split_name": "incremental_curriculum_order3",
+      "path": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/splits/incremental_curriculum_order3.json",
+      "train": 2326,
+      "val": 581,
+      "test": 50,
+      "unlabeled_visible": 150
+    }
+  ],
+  "notes": "family is used only to construct split membership; split files expose node id lists for train/val/test/unlabeled_visible."
+}

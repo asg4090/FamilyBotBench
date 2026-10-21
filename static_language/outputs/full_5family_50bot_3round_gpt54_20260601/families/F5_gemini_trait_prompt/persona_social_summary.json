@@ -1,0 +1,50 @@
+{
+  "agents_created": 50,
+  "browse_events": 150,
+  "post_written": 0,
+  "comment1_written": 33,
+  "comment2_written": 100,
+  "revisit_written": 16,
+  "skip_events": 0,
+  "llm_calls": 150,
+  "llm_fallbacks": 2,
+  "notifications_created": 67,
+  "dry_run": false,
+  "api": "responses",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "reasoning_effort": "medium",
+  "browse_count": 10,
+  "rounds": 3,
+  "generated_comment_rows": 149,
+  "behavior_summary": {
+    "bot_count": 50,
+    "generated_post_count": 0,
+    "generated_comment1_count": 33,
+    "generated_comment2_count": 116,
+    "generated_comment_count": 149,
+    "action_counts": {
+      "comment2": 101,
+      "comment1": 33,
+      "revisit": 16
+    },
+    "candidate_source_counts": {
+      "explore": 55,
+      "feed": 79,
+      "own_history": 15,
+      "notification": 1
+    },
+    "bot_to_bot_c1": 0,
+    "bot_to_human_c1": 33,
+    "bot_to_bot_c2": 77,
+    "bot_to_human_c2": 39,
+    "bot_to_bot_total": 77,
+    "bot_to_human_total": 72,
+    "notification_revisit_count": 16,
+    "mean_browse_count": 10.0,
+    "mean_posts_per_bot": 0.0,
+    "mean_comments_per_bot": 2.98,
+    "mean_comment_words": 55.00333333333334
+  },
+  "run_dir": "static_language/outputs/full_5family_50bot_3round_gpt54_20260601/families/F5_gemini_trait_prompt/run"
+}

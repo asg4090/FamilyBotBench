@@ -1,0 +1,15 @@
+# Local configuration and interpreter artifacts
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+
+# New runs only. Archived study outputs are intentionally versioned.
+/outputs/
+
+# The release includes CSV, JSONL, NPY, PT, figures and formal traces.
+# Do not add extension-wide data exclusions here.

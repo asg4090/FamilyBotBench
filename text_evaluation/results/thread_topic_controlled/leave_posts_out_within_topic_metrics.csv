@@ -1,0 +1,7 @@
+model,topic,status,train_n,test_n,train_posts,test_posts,train_human_n,train_bot_n,test_human_n,test_bot_n,accuracy,human_precision,bot_precision,human_recall,bot_recall,human_f1,bot_f1,macro_f1,mean_bot_probability
+TF-IDF+LR,israel_palestine_middle_east,ok,400.0,272.0,152.0,102.0,200.0,200.0,136.0,136.0,0.8272058823529411,0.7458563535911602,0.989010989010989,0.9926470588235294,0.6617647058823529,0.8517350157728707,0.7929515418502202,0.8223432788115455,0.40742035139220606
+TF-IDF+LR,russia_ukraine_war,ok,72.0,28.0,38.0,15.0,36.0,36.0,14.0,14.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5091791218307029
+TF-IDF+LR,us_politics_elections,ok,342.0,10.0,166.0,6.0,171.0,171.0,5.0,5.0,0.8,0.7142857142857143,1.0,1.0,0.6,0.8333333333333334,0.75,0.7916666666666667,0.4259625271601143
+TF-IDF+LR,law_crime_rights,skipped_no_disjoint_post_split_with_both_labels,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,,,
+TF-IDF+LR,other_or_mixed,ok,102.0,10.0,62.0,9.0,51.0,51.0,5.0,5.0,0.6,0.6,0.6,0.6,0.6,0.6,0.6,0.6,0.5072792983883163
+BGE+LR,__all__,bge_skipped_no_comment_level_local_embeddings,,,,,,,,,,,,,,,,,

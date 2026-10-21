@@ -1,0 +1,11 @@
+round,family,model,size,bot_count,accuracy,precision,recall,bot_detected,bot_mean_probability,protocol,holdout_family
+1,F1_original_architecture,GraphStats_LR,50,50,0.84,1.0,0.84,42,0.7142123726886741,static_leave_one_family_out,F1_original_architecture
+1,F1_original_architecture,GraphStats_RF,50,50,1.0,1.0,1.0,50,0.9756905319628261,static_leave_one_family_out,F1_original_architecture
+2,F2_tfidf_informed_language,GraphStats_LR,50,50,0.86,1.0,0.86,43,0.7449143416646042,static_leave_one_family_out,F2_tfidf_informed_language
+2,F2_tfidf_informed_language,GraphStats_RF,50,50,1.0,1.0,1.0,50,0.9846449947849091,static_leave_one_family_out,F2_tfidf_informed_language
+3,F3_human_anchor_local_tfidf,GraphStats_LR,50,50,0.8,1.0,0.8,40,0.7038296950232861,static_leave_one_family_out,F3_human_anchor_local_tfidf
+3,F3_human_anchor_local_tfidf,GraphStats_RF,50,50,0.96,1.0,0.96,48,0.9573641238955642,static_leave_one_family_out,F3_human_anchor_local_tfidf
+4,F4_peba_trait_prompt,GraphStats_LR,50,50,0.92,1.0,0.92,46,0.8025483522124197,static_leave_one_family_out,F4_peba_trait_prompt
+4,F4_peba_trait_prompt,GraphStats_RF,50,50,1.0,1.0,1.0,50,0.9873304954129678,static_leave_one_family_out,F4_peba_trait_prompt
+5,F5_gemini_trait_prompt,GraphStats_LR,50,50,0.68,1.0,0.68,34,0.6194544576550192,static_leave_one_family_out,F5_gemini_trait_prompt
+5,F5_gemini_trait_prompt,GraphStats_RF,50,50,1.0,1.0,1.0,50,0.9783609487677198,static_leave_one_family_out,F5_gemini_trait_prompt

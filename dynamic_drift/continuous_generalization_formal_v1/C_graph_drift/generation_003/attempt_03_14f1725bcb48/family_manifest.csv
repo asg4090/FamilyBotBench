@@ -1,0 +1,9 @@
+user_id,user_name,family,family_generation,family_round,provider,model,temperature,reasoning_effort,graph_affinity,notification_reactivity,post_tendency,reply_tendency,revisit_tendency,exploration_tendency,traits_json
+c_graph_drift_g003_a03_14f1725b_003,PaperBagLunch_c_graph_drift_g3,C_graph_drift,3,3,gemini,gemini-3-flash-preview,0.4,medium,0.99,0.99,0.182,0.99,0.968,0.73,{}
+c_graph_drift_g003_a03_14f1725b_007,LakeErieGuy_c_graph_drift_g3,C_graph_drift,3,3,gemini,gemini-3-pro-preview,0.8,medium,0.99,0.99,0.343,0.99,0.99,0.594,{}
+c_graph_drift_g003_a03_14f1725b_004,SidewalkSam_c_graph_drift_g3,C_graph_drift,3,3,gemini,gemini-3-flash-preview,0.4,medium,0.99,0.99,0.331,0.99,0.99,0.653,{}
+c_graph_drift_g003_a03_14f1725b_002,TinyDeskFan_c_graph_drift_g3,C_graph_drift,3,3,gemini,gemini-3-pro-preview,0.8,medium,0.99,0.99,0.253,0.718,0.99,0.873,{}
+c_graph_drift_g003_a03_14f1725b_005,RainyWindow_c_graph_drift_g3,C_graph_drift,3,3,gemini,gemini-3-pro-preview,0.8,medium,0.99,0.99,0.015,0.99,0.99,0.767,{}
+c_graph_drift_g003_a03_14f1725b_001,CheapHeadphones_c_graph_drift_g3,C_graph_drift,3,3,gemini,gemini-3-flash-preview,0.4,medium,0.99,0.99,0.134,0.99,0.868,0.672,{}
+c_graph_drift_g003_a03_14f1725b_008,DinerCoffee_c_graph_drift_g3,C_graph_drift,3,3,gemini,gemini-3-pro-preview,0.8,medium,0.99,0.99,0.355,0.944,0.936,0.673,{}
+c_graph_drift_g003_a03_14f1725b_006,BusStopMia_c_graph_drift_g3,C_graph_drift,3,3,gemini,gemini-3-flash-preview,0.4,medium,0.99,0.99,0.209,0.812,0.99,0.814,{}

@@ -1,0 +1,15 @@
+{
+  "run_dir": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606",
+  "node_count": 3107,
+  "edge_count": 55399,
+  "feature_count": 39,
+  "split_count": 15,
+  "manifest_run_name": "partial_plus_g4_slot_conditioned_20260606",
+  "forbidden_feature_hints": [
+    "user_id",
+    "user_name",
+    "family",
+    "provider",
+    "model"
+  ]
+}

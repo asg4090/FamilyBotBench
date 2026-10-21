@@ -1,0 +1,11 @@
+order,experiment_group,method_id,method_label_cn,plot_label,sample_n,scope,mean_prob_before,mean_prob_after,mean_probability_drop,recall_before,recall_after,recall_drop,flip_rate,mean_length_ratio,verdict,interpretation
+1,局部语义框架消融,T3_de_rights_frame,去权利/公共规范框架（固定treatment中最好）,"Local semantic
+T3 rights-frame",19,pilot: 50源评论中的有效T3子集,,,0.0078544176384584,0.8947368421052632,0.8421052631578947,0.0526315789473684,0.0526315789473684,1.0243522467851631,弱有效但不稳定,局部语义框架有一点影响，但概率下降太小，且有效样本少。
+2,早期轻压缩策略,S1_compressed_fragmented_reddit,压缩碎片化 Reddit 回复（第一轮LLM策略）,"Light compression
+S1 fragmented",20,pilot: 20源评论,0.7975839563065052,0.7820246704512915,0.0155592858552136,0.85,0.9,-0.050000000000000044,0.05,0.4927327961032787,方向正确但力度不足,概率略降，但 recall 没降，说明普通压缩没有真正破坏 BGE 抓到的长篇解释结构。
+3,强压缩固定LLM策略,S8_two_sentence_thread_reply,一到两句 thread reply（最佳固定LLM策略）,"Strong compression
+S8 two-sentence",250,full: 250 bot,0.7364607169375496,0.6629007770893802,0.0735599398481694,0.852,0.8,0.051999999999999935,0.088,0.2904540750454119,最优固定策略,全量验证有效，说明短、碎、不完整的线程回复能稳定降低 BGE 检出。
+4,强压缩detector-aware选优,S7_or_S8_selected_by_BGE,S7/S8 生成两个候选后选择BGE概率最低者,"Detector-aware
+select S7/S8",250,full: 250 bot,0.7364607169375497,0.6261586823526566,0.1103020345848929,0.852,0.756,0.09599999999999997,0.12,0.3155793885578499,最强LLM结果，但属检测器反馈上界,效果最强的LLM方案，但用了检测器反馈，应表述为对抗压力测试，而不是普通自然改写。
+5,机械截断诊断基线,first40_or_first80_selected,first40/first80 机械截断选优,"Deterministic
+first40/80 select",250,full: 250 bot,0.7364607169375497,0.6226956380553141,0.1137650788822354,0.852,0.696,0.15600000000000003,0.18,0.3602489427004804,诊断上界，不推荐当改写策略,最能说明 BGE 对长度/完整解释结构敏感，但语义保真较差。

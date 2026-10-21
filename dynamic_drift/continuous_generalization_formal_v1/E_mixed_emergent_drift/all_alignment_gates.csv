@@ -1,0 +1,8 @@
+family,slug,plan_id,attempt,passed,target_pass_rate,severe_non_target_count,failed_target_axes,severe_non_target_axes,human_gate_failures,notes,generation
+E_mixed_emergent_drift,e_mixed_emergent_drift,bd76136a91d7,1,False,0.6667,0,['action_behavior'],[],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],1
+E_mixed_emergent_drift,e_mixed_emergent_drift,d3fd5dae6b1f,2,True,1.0,0,[],[],[],['Qualified for detector sanity evaluation.'],1
+E_mixed_emergent_drift,e_mixed_emergent_drift,1e41ca572f84,1,False,1.0,1,[],['language'],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],2
+E_mixed_emergent_drift,e_mixed_emergent_drift,2d19405691c8,2,False,0.6667,0,['action_behavior'],[],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],2
+E_mixed_emergent_drift,e_mixed_emergent_drift,b4df58539ced,3,True,1.0,0,[],[],[],['Qualified for detector sanity evaluation.'],2
+E_mixed_emergent_drift,e_mixed_emergent_drift,8b8e68686e3d,1,False,1.0,1,[],['language'],[],['Rejected from qualified detector set; keep under rejected attempts for analysis.'],3
+E_mixed_emergent_drift,e_mixed_emergent_drift,873a817dc1fb,2,True,1.0,0,[],[],[],['Qualified for detector sanity evaluation.'],3

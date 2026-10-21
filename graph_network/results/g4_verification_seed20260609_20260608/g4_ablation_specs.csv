@@ -1,0 +1,7 @@
+condition,dropped_columns
+drop_reciprocity,['reciprocal_share']
+drop_direction_balance,['direction_balance']
+drop_receive_bundle,"['total_in_degree', 'total_in_weight', 'avg_in_weight', 'unique_inbound_authors', 'etype_user_receives_reply_out_degree', 'etype_user_receives_reply_in_degree', 'etype_user_receives_reply_degree_share', 'etype_user_receives_reply_weight_share', 'receive_rate']"
+drop_comment_owner_bundle,"['etype_user_comments_on_user_post_out_degree', 'etype_user_comments_on_user_post_in_degree', 'etype_user_comments_on_user_post_degree_share', 'etype_user_comments_on_user_post_weight_share', 'comment1_rate', 'comment2_rate', 'post_rate']"
+drop_context_bundle,"['has_any_edge', 'component_size', 'log_component_size', 'is_isolated', 'clustering', 'pagerank', 'log_pagerank']"
+drop_g4_signature_bundle,"['total_in_degree', 'total_in_weight', 'direction_balance', 'avg_in_weight', 'unique_inbound_authors', 'etype_user_comments_on_user_post_out_degree', 'etype_user_comments_on_user_post_in_degree', 'etype_user_comments_on_user_post_degree_share', 'etype_user_comments_on_user_post_weight_share', 'etype_user_receives_reply_out_degree', 'etype_user_receives_reply_in_degree', 'etype_user_receives_reply_degree_share', 'etype_user_receives_reply_weight_share', 'comment1_rate', 'comment2_rate', 'post_rate', 'receive_rate', 'reciprocal_share']"

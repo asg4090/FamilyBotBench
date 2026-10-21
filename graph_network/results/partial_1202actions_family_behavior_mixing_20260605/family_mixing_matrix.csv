@@ -1,0 +1,17 @@
+src_family,dst_family,edge_weight,src_label,dst_label
+original_human,original_human,51856.0,Human,Human
+G1_population_calibrated,original_human,176.0,G1,Human
+G2_anchor_behavior,original_human,202.0,G2,Human
+G3_contextual_interactive,original_human,268.0,G3,Human
+original_human,G1_population_calibrated,0.0,Human,G1
+G1_population_calibrated,G1_population_calibrated,134.0,G1,G1
+G2_anchor_behavior,G1_population_calibrated,147.0,G2,G1
+G3_contextual_interactive,G1_population_calibrated,167.0,G3,G1
+original_human,G2_anchor_behavior,0.0,Human,G2
+G1_population_calibrated,G2_anchor_behavior,127.0,G1,G2
+G2_anchor_behavior,G2_anchor_behavior,113.0,G2,G2
+G3_contextual_interactive,G2_anchor_behavior,167.0,G3,G2
+original_human,G3_contextual_interactive,0.0,Human,G3
+G1_population_calibrated,G3_contextual_interactive,142.0,G1,G3
+G2_anchor_behavior,G3_contextual_interactive,171.0,G2,G3
+G3_contextual_interactive,G3_contextual_interactive,105.0,G3,G3

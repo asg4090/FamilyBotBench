@@ -1,0 +1,133 @@
+{
+  "run_dir": "graph_network/outputs/partial_1202actions_stopped_live_20260604",
+  "splits_dir": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits",
+  "seed": 20260609,
+  "val_fraction": 0.2,
+  "counts": {
+    "users": 3057,
+    "known_users": 3057,
+    "original_known_users": 2907,
+    "generated_known_users": 150,
+    "families": {
+      "G1_population_calibrated": 50,
+      "G2_anchor_behavior": 50,
+      "G3_contextual_interactive": 50
+    },
+    "splits": 14
+  },
+  "splits": [
+    {
+      "split_name": "original_only_zero_shot",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/original_only_zero_shot.json",
+      "train": 2326,
+      "val": 581,
+      "test": 150,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "lofo_g1",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/lofo_g1.json",
+      "train": 2406,
+      "val": 601,
+      "test": 50,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "lofo_g2",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/lofo_g2.json",
+      "train": 2406,
+      "val": 601,
+      "test": 50,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "lofo_g3",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/lofo_g3.json",
+      "train": 2406,
+      "val": 601,
+      "test": 50,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_001pct",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/label_scarcity_001pct.json",
+      "train": 2328,
+      "val": 582,
+      "test": 147,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_005pct",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/label_scarcity_005pct.json",
+      "train": 2331,
+      "val": 582,
+      "test": 144,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_010pct",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/label_scarcity_010pct.json",
+      "train": 2338,
+      "val": 584,
+      "test": 135,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_025pct",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/label_scarcity_025pct.json",
+      "train": 2355,
+      "val": 588,
+      "test": 114,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_050pct",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/label_scarcity_050pct.json",
+      "train": 2386,
+      "val": 596,
+      "test": 75,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "label_scarcity_100pct",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/label_scarcity_100pct.json",
+      "train": 2446,
+      "val": 611,
+      "test": 0,
+      "unlabeled_visible": 0
+    },
+    {
+      "split_name": "time_forward",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/time_forward.json",
+      "train": 187,
+      "val": 47,
+      "test": 0,
+      "unlabeled_visible": 2823
+    },
+    {
+      "split_name": "incremental_curriculum_order1",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/incremental_curriculum_order1.json",
+      "train": 2326,
+      "val": 581,
+      "test": 50,
+      "unlabeled_visible": 100
+    },
+    {
+      "split_name": "incremental_curriculum_order2",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/incremental_curriculum_order2.json",
+      "train": 2326,
+      "val": 581,
+      "test": 50,
+      "unlabeled_visible": 100
+    },
+    {
+      "split_name": "incremental_curriculum_order3",
+      "path": "graph_network/outputs/partial_1202actions_stopped_live_20260604/splits/incremental_curriculum_order3.json",
+      "train": 2326,
+      "val": 581,
+      "test": 50,
+      "unlabeled_visible": 100
+    }
+  ],
+  "notes": "family is used only to construct split membership; split files expose node id lists for train/val/test/unlabeled_visible."
+}

@@ -1,0 +1,3 @@
+-r requirements.txt
+torch-geometric==2.7.0
+interpret==0.7.8

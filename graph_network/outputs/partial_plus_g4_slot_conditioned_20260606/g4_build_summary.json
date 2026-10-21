@@ -1,0 +1,22 @@
+{
+  "input_dir": "graph_network/outputs/partial_1202actions_stopped_live_20260604",
+  "output_dir": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606",
+  "g4_bot_count": 50,
+  "g4_generated_posts": 81,
+  "g4_generated_comments": 278,
+  "g4_human_to_g4_replay_comments": 326,
+  "selected_slot_count": 50,
+  "response_bank_rows": 3865,
+  "action_counts": {
+    "post": 81,
+    "comment1": 108,
+    "comment2": 100,
+    "skip": 41,
+    "revisit": 70
+  },
+  "needs_postprocess": [
+    "export_static_graph_dataset.py",
+    "build_graph_splits.py",
+    "check_dataset_integrity.py"
+  ]
+}

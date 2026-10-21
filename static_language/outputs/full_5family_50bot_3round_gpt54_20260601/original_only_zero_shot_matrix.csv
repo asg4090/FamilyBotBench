@@ -1,0 +1,11 @@
+protocol,train_family,eval_family,model,size,bot_count,accuracy,precision,recall,f1,bot_detected,bot_mean_probability,bot_median_probability
+original_only_zero_shot,original_only,F1_original_architecture,tfidf,50,50,0.0,0.0,0.0,0.0,0,0.2351633163215149,0.22613844155958446
+original_only_zero_shot,original_only,F1_original_architecture,bge,50,50,0.7,1.0,0.7,0.8235294117647058,35,0.5830006447148333,0.5864179357775129
+original_only_zero_shot,original_only,F2_tfidf_informed_language,tfidf,50,50,0.0,0.0,0.0,0.0,0,0.1482968517224172,0.1456342976903935
+original_only_zero_shot,original_only,F2_tfidf_informed_language,bge,50,50,0.0,0.0,0.0,0.0,0,0.1197189450373264,0.10317761647008494
+original_only_zero_shot,original_only,F3_human_anchor_local_tfidf,tfidf,50,50,0.0,0.0,0.0,0.0,0,0.1081194522211069,0.10698109916698975
+original_only_zero_shot,original_only,F3_human_anchor_local_tfidf,bge,50,50,0.02,1.0,0.02,0.0392156862745098,1,0.1841831003120883,0.1601962124239818
+original_only_zero_shot,original_only,F4_peba_trait_prompt,tfidf,50,50,0.0,0.0,0.0,0.0,0,0.19338307198692056,0.19113827798300054
+original_only_zero_shot,original_only,F4_peba_trait_prompt,bge,50,50,0.22,1.0,0.22,0.36065573770491804,11,0.3830568903803549,0.36427012701900574
+original_only_zero_shot,original_only,F5_gemini_trait_prompt,tfidf,50,50,0.0,0.0,0.0,0.0,0,0.2158843251809002,0.20309496516135675
+original_only_zero_shot,original_only,F5_gemini_trait_prompt,bge,50,50,0.08,1.0,0.08,0.14814814814814814,4,0.23814317564362217,0.17783043829778292

@@ -1,0 +1,20 @@
+{
+  "input_dir": "static_language/outputs/full_5family_50bot_3round_gpt54_20260601",
+  "output_dir": "static_language/outputs/full_5family_50bot_3round_gpt54_20260601/bge_rewrite_strategy_search_strongcompress_10perfamily_20260606",
+  "families": [
+    "F1_original_architecture",
+    "F2_tfidf_informed_language",
+    "F3_human_anchor_local_tfidf",
+    "F4_peba_trait_prompt",
+    "F5_gemini_trait_prompt"
+  ],
+  "strategies": [
+    "S7_ultra_short_casual_digest",
+    "S8_two_sentence_thread_reply",
+    "S9_micro_shards"
+  ],
+  "samples_per_family": 10,
+  "target_detector": "lofo",
+  "model": "gpt-5.4",
+  "temperature": 0.4
+}

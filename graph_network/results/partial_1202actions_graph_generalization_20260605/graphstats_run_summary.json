@@ -1,0 +1,15 @@
+{
+  "run_dir": "graph_network/outputs/partial_1202actions_stopped_live_20260604",
+  "node_count": 3057,
+  "edge_count": 53775,
+  "feature_count": 39,
+  "split_count": 14,
+  "manifest_run_name": "full_3family_150bot_24window_live",
+  "forbidden_feature_hints": [
+    "user_id",
+    "user_name",
+    "family",
+    "provider",
+    "model"
+  ]
+}

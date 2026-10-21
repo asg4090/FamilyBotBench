@@ -1,0 +1,4 @@
+family,family_label,bot_count,policy_source,dry_run,live_llm,description
+G1_population_calibrated,G1,50,social_family_policies.py,false,true,population calibrated dry-run social actor
+G2_anchor_behavior,G2,50,social_family_policies.py,false,true,anchor behavior dry-run social actor
+G3_contextual_interactive,G3,50,social_family_policies.py,false,true,contextual interactive dry-run social actor

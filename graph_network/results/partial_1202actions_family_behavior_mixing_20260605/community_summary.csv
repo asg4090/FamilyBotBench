@@ -1,0 +1,2 @@
+community_method,node_count,edge_count,community_count,largest_community_size,mean_community_purity,weighted_community_purity,bot_only_community_count,bot_only_node_share,bot_heavy_community_count_80pct,max_bot_share_in_community,max_bot_share_community_size,max_bot_share_community_bot_count,family_modularity,nmi_all_main,ari_all_main,nmi_generated_only,ari_generated_only
+networkx_louvain,2057,25887,101,755,0.9932527982425052,0.9479824987846378,0,0.0,1,0.9551282051282052,156,149,0.029043538462103762,0.21975604170653437,0.07892681934879413,0.012943143374487423,0.0

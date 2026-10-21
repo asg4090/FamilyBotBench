@@ -1,0 +1,9 @@
+user_id,post_count,comment1_count,comment2_count,comment_count,mean_comment_words
+a_language_drift_parent_001,0,4,0,4,19.75
+a_language_drift_parent_002,0,2,1,3,37.0
+a_language_drift_parent_003,1,2,1,3,30.666666666666668
+a_language_drift_parent_004,0,2,2,4,27.0
+a_language_drift_parent_005,2,1,0,1,32.0
+a_language_drift_parent_006,2,1,1,2,53.5
+a_language_drift_parent_007,0,1,1,2,68.5
+a_language_drift_parent_008,1,0,3,3,30.0

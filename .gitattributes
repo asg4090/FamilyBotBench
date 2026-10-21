@@ -1,0 +1,14 @@
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.npy binary
+*.pt binary
+*.png binary
+*.xlsx binary
+*.pdf binary
+# Preserve archived data bytes and checksum identity across platforms.
+*.csv -text
+*.json -text
+*.jsonl -text
+*.log -text

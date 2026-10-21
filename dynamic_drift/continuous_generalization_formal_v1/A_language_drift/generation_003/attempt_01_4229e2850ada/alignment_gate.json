@@ -1,0 +1,15 @@
+{
+  "family": "A_language_drift",
+  "slug": "a_language_drift",
+  "plan_id": "4229e2850ada",
+  "attempt": 1,
+  "passed": true,
+  "target_pass_rate": 1.0,
+  "severe_non_target_count": 0,
+  "failed_target_axes": [],
+  "severe_non_target_axes": [],
+  "human_gate_failures": [],
+  "notes": [
+    "Qualified for detector sanity evaluation."
+  ]
+}

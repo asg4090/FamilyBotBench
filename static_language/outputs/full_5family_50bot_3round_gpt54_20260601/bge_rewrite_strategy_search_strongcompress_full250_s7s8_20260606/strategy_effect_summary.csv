@@ -1,0 +1,3 @@
+strategy_id,strategy_description,strategy_kind,n,source_n,mean_original_probability,mean_rewritten_probability,mean_probability_drop,median_probability_drop,recall_before,recall_after,flip_rate,mean_length_ratio,mean_delta_bot_direction
+S8_two_sentence_thread_reply,Compress into one or two short thread-reply sentences.,llm,250,250,0.7364607169375496,0.6629007770893802,0.0735599398481694,0.06496505333479415,0.852,0.8,0.088,0.29045407504541193,-0.024350158724581746
+S7_ultra_short_casual_digest,Compress the original into a 40-60 word casual Reddit digest.,llm,250,250,0.7364607169375496,0.6924309128302484,0.044029804107301146,0.05029189196737699,0.852,0.828,0.076,0.35542300306174246,-0.01621436671494163

@@ -1,0 +1,9 @@
+family,slug,plan_id,attempt,axis,drift_score,role,is_target
+C_graph_drift,c_graph_drift,a3cb11bf0d45,1,language,0.3085,frozen,False
+C_graph_drift,c_graph_drift,a3cb11bf0d45,1,topic_content,0.2071,watch,False
+C_graph_drift,c_graph_drift,a3cb11bf0d45,1,persona_population,0.242,watch,False
+C_graph_drift,c_graph_drift,a3cb11bf0d45,1,action_behavior,0.082,auxiliary,False
+C_graph_drift,c_graph_drift,a3cb11bf0d45,1,graph_structure,0.3958,target,True
+C_graph_drift,c_graph_drift,a3cb11bf0d45,1,temporal_rhythm,0.4206,auxiliary,False
+C_graph_drift,c_graph_drift,a3cb11bf0d45,1,memory_revisit,0.4691,target,True
+C_graph_drift,c_graph_drift,a3cb11bf0d45,1,llm_generation,0.0,watch,False

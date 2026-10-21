@@ -1,0 +1,83 @@
+{
+  "run_dir": "graph_network/outputs/partial_1202actions_stopped_live_20260604",
+  "result_dir": "graph_network/results/partial_1202actions_stopped_live_20260604",
+  "expect_live_llm": true,
+  "generated_user_count": 150,
+  "profile_count": 150,
+  "unique_profile_users": 150,
+  "generated_post_count": 258,
+  "generated_comment_count": 790,
+  "action_counts": {
+    "post": 258,
+    "skip": 154,
+    "comment2": 185,
+    "comment1": 416,
+    "revisit": 189
+  },
+  "event_counts": {
+    "browse": 1203,
+    "post": 258,
+    "skip": 154,
+    "comment2": 185,
+    "notification_created": 511,
+    "comment1": 416,
+    "revisit": 189
+  },
+  "memory_rows": 2405,
+  "llm_call_count": 1048,
+  "llm_status_counts": {
+    "ok": 1012,
+    "ok_after_retry": 35,
+    "fallback": 1
+  },
+  "llm_provider_counts": {
+    "gemini": 526,
+    "openai": 522
+  },
+  "llm_fallback_rate": 0.0009541984732824427,
+  "post_template_count": 0,
+  "comment_template_count": 0,
+  "empty_comment_count": 0,
+  "json_residue_comment_count": 0,
+  "edge_type_counts": {
+    "user_writes_post": 34604,
+    "user_writes_comment": 48915,
+    "comment_replies_post": 45127,
+    "user_comments_on_user_post": 24310,
+    "user_receives_reply": 26186,
+    "comment_replies_comment": 3788,
+    "user_replies_to_user_comment": 3279,
+    "user_revisits_thread": 292
+  },
+  "required_edges_present": {
+    "user_writes_post": true,
+    "user_writes_comment": true,
+    "comment_replies_post": true,
+    "comment_replies_comment": true,
+    "user_comments_on_user_post": true,
+    "user_replies_to_user_comment": true,
+    "user_receives_reply": true
+  },
+  "user_revisits_thread_present": true,
+  "checks": {
+    "profiles_match_generated_users": true,
+    "has_post_action": true,
+    "has_comment1_action": true,
+    "has_comment2_action": true,
+    "has_revisit_action": true,
+    "has_skip_action": true,
+    "has_notification_created": true,
+    "has_memory_browse_context": true,
+    "has_memory_post_action_state": true,
+    "required_edges_present": true,
+    "live_llm_calls_present": true,
+    "live_llm_has_openai": true,
+    "live_llm_has_gemini": true,
+    "fallback_rate_under_20pct": true,
+    "no_template_posts": true,
+    "no_template_comments": true,
+    "no_empty_comments": true,
+    "no_json_residue_comments": true
+  },
+  "passed": true
+}

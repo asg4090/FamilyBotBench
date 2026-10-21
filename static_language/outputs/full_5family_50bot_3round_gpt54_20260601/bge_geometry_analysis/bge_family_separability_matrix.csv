@@ -1,0 +1,6 @@
+true_family,F1_original_architecture,F2_tfidf_informed_language,F3_human_anchor_local_tfidf,F4_peba_trait_prompt,F5_gemini_trait_prompt
+F1_original_architecture,15,0,0,0,0
+F2_tfidf_informed_language,1,14,0,0,0
+F3_human_anchor_local_tfidf,1,1,12,0,1
+F4_peba_trait_prompt,1,4,0,10,0
+F5_gemini_trait_prompt,0,0,0,1,14

@@ -1,0 +1,25 @@
+{
+  "input_dir": "static_language/outputs/full_5family_50bot_3round_gpt54_20260601",
+  "output_dir": "static_language/outputs/full_5family_50bot_3round_gpt54_20260601/tfidf_fingerprint_analysis/ablation_scope_validation",
+  "detector_count": 26,
+  "trained_detector_count": 25,
+  "families": [
+    "F1_original_architecture",
+    "F2_tfidf_informed_language",
+    "F3_human_anchor_local_tfidf",
+    "F4_peba_trait_prompt",
+    "F5_gemini_trait_prompt"
+  ],
+  "max_features": 10000,
+  "seed": 20260531,
+  "topk_values": [
+    1,
+    3,
+    5,
+    10,
+    15,
+    20,
+    30
+  ],
+  "smoke": false
+}

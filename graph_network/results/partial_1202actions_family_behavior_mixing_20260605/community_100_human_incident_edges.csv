@@ -1,0 +1,15 @@
+edge_id,src_id,dst_id,src_type,dst_type,edge_type,time,weight,source_event_id,src_family,dst_family
+e_00176567,106ml0hgzw,uwko3lhw,user,user,user_comments_on_user_post,2024-05-30 11:26:01,1.0,,original_human,original_human
+e_00176568,106ml0hgzw,uwko3lhw,user,user,user_receives_reply,2024-05-30 11:26:01,1.0,,original_human,original_human
+e_00183049,gb_g3_full_3family_150bot_24window_live_0030,mxpph,user,user,user_comments_on_user_post,2024-01-01 14:16:56,1.0,,G3_contextual_interactive,original_human
+e_00183050,gb_g3_full_3family_150bot_24window_live_0030,mxpph,user,user,user_receives_reply,2024-01-01 14:16:56,1.0,,G3_contextual_interactive,original_human
+e_00183331,gb_g1_full_3family_150bot_24window_live_0025,1fp8u5rc,user,user,user_comments_on_user_post,2024-01-02 00:15:14,1.0,,G1_population_calibrated,original_human
+e_00183332,gb_g1_full_3family_150bot_24window_live_0025,1fp8u5rc,user,user,user_receives_reply,2024-01-02 00:15:14,1.0,,G1_population_calibrated,original_human
+e_00183377,gb_g1_full_3family_150bot_24window_live_0014,15dvkhqt,user,user,user_comments_on_user_post,2024-01-02 00:49:02,1.0,,G1_population_calibrated,original_human
+e_00183378,gb_g1_full_3family_150bot_24window_live_0014,15dvkhqt,user,user,user_receives_reply,2024-01-02 00:49:02,1.0,,G1_population_calibrated,original_human
+e_00183398,gb_g3_full_3family_150bot_24window_live_0049,tvfslni23,user,user,user_comments_on_user_post,2024-01-02 01:05:24,1.0,,G3_contextual_interactive,original_human
+e_00183399,gb_g3_full_3family_150bot_24window_live_0049,tvfslni23,user,user,user_receives_reply,2024-01-02 01:05:24,1.0,,G3_contextual_interactive,original_human
+e_00184132,gb_g1_full_3family_150bot_24window_live_0018,tqjwp9hc,user,user,user_comments_on_user_post,2024-01-03 00:20:38,1.0,,G1_population_calibrated,original_human
+e_00184133,gb_g1_full_3family_150bot_24window_live_0018,tqjwp9hc,user,user,user_receives_reply,2024-01-03 00:20:38,1.0,,G1_population_calibrated,original_human
+e_00185450,gb_g1_full_3family_150bot_24window_live_0025,uwko3lhw,user,user,user_comments_on_user_post,2024-01-04 20:09:19,1.0,,G1_population_calibrated,original_human
+e_00185451,gb_g1_full_3family_150bot_24window_live_0025,uwko3lhw,user,user,user_receives_reply,2024-01-04 20:09:19,1.0,,G1_population_calibrated,original_human

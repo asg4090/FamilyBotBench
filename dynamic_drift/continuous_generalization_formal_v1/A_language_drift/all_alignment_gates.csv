@@ -1,0 +1,4 @@
+family,slug,plan_id,attempt,passed,target_pass_rate,severe_non_target_count,failed_target_axes,severe_non_target_axes,human_gate_failures,notes,generation
+A_language_drift,a_language_drift,101201933616,1,True,1.0,0,[],[],[],['Qualified for detector sanity evaluation.'],1
+A_language_drift,a_language_drift,7960cd0eacc0,1,True,1.0,0,[],[],[],['Qualified for detector sanity evaluation.'],2
+A_language_drift,a_language_drift,4229e2850ada,1,True,1.0,0,[],[],[],['Qualified for detector sanity evaluation.'],3

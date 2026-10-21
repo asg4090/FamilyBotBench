@@ -1,0 +1,17 @@
+{
+  "family": "E_mixed_emergent_drift",
+  "slug": "e_mixed_emergent_drift",
+  "plan_id": "8b8e68686e3d",
+  "attempt": 1,
+  "passed": false,
+  "target_pass_rate": 1.0,
+  "severe_non_target_count": 1,
+  "failed_target_axes": [],
+  "severe_non_target_axes": [
+    "language"
+  ],
+  "human_gate_failures": [],
+  "notes": [
+    "Rejected from qualified detector set; keep under rejected attempts for analysis."
+  ]
+}

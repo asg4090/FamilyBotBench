@@ -1,0 +1,9 @@
+family,slug,plan_id,attempt,axis,drift_score,role,is_target
+E_mixed_emergent_drift,e_mixed_emergent_drift,8b8e68686e3d,1,language,0.3505,watch,False
+E_mixed_emergent_drift,e_mixed_emergent_drift,8b8e68686e3d,1,topic_content,0.2549,auxiliary,False
+E_mixed_emergent_drift,e_mixed_emergent_drift,8b8e68686e3d,1,persona_population,0.1336,watch,False
+E_mixed_emergent_drift,e_mixed_emergent_drift,8b8e68686e3d,1,action_behavior,0.1813,target,True
+E_mixed_emergent_drift,e_mixed_emergent_drift,8b8e68686e3d,1,graph_structure,0.2917,target,True
+E_mixed_emergent_drift,e_mixed_emergent_drift,8b8e68686e3d,1,temporal_rhythm,0.4613,auxiliary,False
+E_mixed_emergent_drift,e_mixed_emergent_drift,8b8e68686e3d,1,memory_revisit,0.2517,auxiliary,False
+E_mixed_emergent_drift,e_mixed_emergent_drift,8b8e68686e3d,1,llm_generation,0.0,watch,False

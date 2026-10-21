@@ -1,0 +1,2 @@
+selected_n,mean_original_probability,mean_rewritten_probability,mean_probability_drop,recall_before,recall_after,flip_rate,mean_length_ratio
+50,0.8077214299490163,0.6619375402487134,0.145783889700303,0.9,0.82,0.1,0.34050804888813

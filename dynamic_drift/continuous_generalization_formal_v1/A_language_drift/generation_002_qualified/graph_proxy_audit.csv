@@ -1,0 +1,9 @@
+user_id,C1_P_out_weight_proxy,C2_C1_out_weight_proxy,C1_P_in_weight_proxy,C2_C1_in_weight_proxy,total_out_weight_proxy,total_in_weight_proxy,direction_balance_proxy,reciprocal_neighbor_count_proxy,reciprocal_share_proxy,unique_target_authors,unique_inbound_authors
+a_language_drift_g002_a01_7960cd0e_001,1,2,1,0,3,1,0.75,1,0.5,2,1
+a_language_drift_g002_a01_7960cd0e_002,1,1,0,1,2,1,0.6666666666666666,1,0.5,2,1
+a_language_drift_g002_a01_7960cd0e_003,0,2,0,0,2,0,1.0,0,0.0,1,0
+a_language_drift_g002_a01_7960cd0e_004,1,1,0,2,2,2,0.5,0,0.0,2,2
+a_language_drift_g002_a01_7960cd0e_005,0,4,0,0,4,0,1.0,0,0.0,3,0
+a_language_drift_g002_a01_7960cd0e_006,3,0,0,3,3,3,0.5,1,0.2,3,3
+a_language_drift_g002_a01_7960cd0e_007,1,2,1,0,3,1,0.75,1,0.5,2,1
+a_language_drift_g002_a01_7960cd0e_008,0,4,0,0,4,0,1.0,0,0.0,3,0

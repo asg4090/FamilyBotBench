@@ -1,0 +1,13 @@
+model,order_id,order_name,order,mean_before_recall,mean_after_recall,mean_recovery_gain,min_before_recall,max_before_recall
+bge,1,engineering_order,F1>F2>F3>F4>F5,0.64,0.952,0.312,0.02,1.0
+bge,2,hard_to_easy,F2>F3>F5>F4>F1,0.6639999999999999,0.9480000000000001,0.284,0.0,1.0
+bge,3,easy_to_hard,F1>F4>F5>F3>F2,0.6479999999999999,0.952,0.304,0.32,0.84
+bge,4,provider_shift_first,F5>F1>F2>F3>F4,0.628,0.9359999999999999,0.308,0.1,1.0
+bge,5,anchor_first,F3>F2>F5>F4>F1,0.604,0.9359999999999999,0.332,0.0,1.0
+bge,6,trait_first,F4>F5>F2>F3>F1,0.556,0.9480000000000001,0.392,0.16,1.0
+tfidf,1,engineering_order,F1>F2>F3>F4>F5,0.33599999999999997,1.0,0.664,0.0,0.94
+tfidf,2,hard_to_easy,F2>F3>F5>F4>F1,0.484,0.9960000000000001,0.512,0.0,1.0
+tfidf,3,easy_to_hard,F1>F4>F5>F3>F2,0.36,1.0,0.64,0.0,1.0
+tfidf,4,provider_shift_first,F5>F1>F2>F3>F4,0.33599999999999997,0.992,0.656,0.0,0.96
+tfidf,5,anchor_first,F3>F2>F5>F4>F1,0.5439999999999999,0.984,0.44000000000000006,0.0,1.0
+tfidf,6,trait_first,F4>F5>F2>F3>F1,0.42000000000000004,0.992,0.572,0.0,1.0

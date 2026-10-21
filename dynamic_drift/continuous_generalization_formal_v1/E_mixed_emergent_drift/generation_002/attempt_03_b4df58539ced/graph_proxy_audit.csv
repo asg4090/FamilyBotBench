@@ -1,0 +1,9 @@
+user_id,C1_P_out_weight_proxy,C2_C1_out_weight_proxy,C1_P_in_weight_proxy,C2_C1_in_weight_proxy,total_out_weight_proxy,total_in_weight_proxy,direction_balance_proxy,reciprocal_neighbor_count_proxy,reciprocal_share_proxy,unique_target_authors,unique_inbound_authors
+e_mixed_emergent_drift_g002_a03_b4df5853_001,2,2,0,0,4,0,1.0,0,0.0,3,0
+e_mixed_emergent_drift_g002_a03_b4df5853_002,1,3,0,0,4,0,1.0,0,0.0,3,0
+e_mixed_emergent_drift_g002_a03_b4df5853_003,0,4,0,0,4,0,1.0,0,0.0,2,0
+e_mixed_emergent_drift_g002_a03_b4df5853_004,0,2,5,0,2,5,0.2857142857142857,1,0.16666666666666666,2,5
+e_mixed_emergent_drift_g002_a03_b4df5853_005,1,1,0,2,2,2,0.5,0,0.0,1,1
+e_mixed_emergent_drift_g002_a03_b4df5853_006,2,2,0,1,4,1,0.8,1,0.3333333333333333,3,1
+e_mixed_emergent_drift_g002_a03_b4df5853_007,2,1,0,3,3,3,0.5,0,0.0,2,1
+e_mixed_emergent_drift_g002_a03_b4df5853_008,1,1,2,2,2,4,0.3333333333333333,0,0.0,2,2

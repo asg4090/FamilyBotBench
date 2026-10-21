@@ -1,0 +1,18 @@
+{
+  "zero_shot_graphstats_lr_recall": 0.0,
+  "lofo_graphstats_lr_mean_recall": 0.69,
+  "curriculum_graphstats_lr_step_mean_recall": {
+    "1": 0.0,
+    "2": 0.82,
+    "3": 0.9533333333333333,
+    "4": 0.0
+  },
+  "figures": {
+    "zero_shot": "graph_network/results/partial_plus_g4_slot_conditioned_graph_generalization_20260606/figures/zero_shot_recall.png",
+    "lofo": "graph_network/results/partial_plus_g4_slot_conditioned_graph_generalization_20260606/figures/lofo_recall_matrix.png",
+    "label_scarcity": "graph_network/results/partial_plus_g4_slot_conditioned_graph_generalization_20260606/figures/label_scarcity_curve.png",
+    "curriculum": "graph_network/results/partial_plus_g4_slot_conditioned_graph_generalization_20260606/figures/incremental_curriculum_recall.png",
+    "shortcut": "graph_network/results/partial_plus_g4_slot_conditioned_graph_generalization_20260606/figures/shortcut_audit.png"
+  },
+  "report": "graph_network/results/partial_plus_g4_slot_conditioned_graph_generalization_20260606/GRAPH_GENERALIZATION_REPORT_CN.md"
+}

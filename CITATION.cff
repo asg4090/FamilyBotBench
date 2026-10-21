@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please acknowledge FamilyBotBench and cite the upstream BotSim paper when using this release."
+title: "FamilyBotBench: Social Bot Family and Drift Generalization Benchmark"
+type: software
+version: 0.1.0
+date-released: 2026-10-21
+authors:
+  - name: muum
+license: LicenseRef-Mixed-See-NOTICE

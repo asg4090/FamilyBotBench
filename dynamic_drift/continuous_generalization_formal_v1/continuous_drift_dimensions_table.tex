@@ -1,0 +1,45 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{连续漂移实验中的机器人漂移维度。各维度均以可操作的生成控制变量和可观测的统计审计量定义；检测器训练阶段不使用生成配置标签作为输入特征。}
+\label{tab:continuous-drift-dimensions}
+\begin{tabular}{p{2.2cm}p{4.2cm}p{4.7cm}p{4.9cm}}
+\hline
+\textbf{漂移维度} & \textbf{操作化定义} & \textbf{生成侧控制变量} & \textbf{观测变量与审计统计量} \\
+\hline
+语言表达 & 评论文本在词汇选择、句长结构、语体正式度、语用标记与立场表达方式上的分布变化，用于刻画不改变互动对象时的文本风格漂移。 & 通过 style、stance、brevity、sentence\_shape、formality、hedging、question\_rate、target\_mean\_words 等变量控制评论长度、口语化程度、反问/感叹频率、立场强度和表达粗糙度。 & 观测评论长度分布、词项分布、口语标记比例、抽象词比例和疑问/感叹标点频率；使用 length\_wasserstein、lexical\_js、style\_rate\_shift 审计。 \\
+\hline
+话题内容 & 机器人群体在主题、议题实体和社区空间上的注意力分布变化，反映内容域迁移或探索性话题引入。 & 通过 interest\_weights、topic\_focus、dominant\_topic、topic\_sampling 和 subreddits 控制主导议题、溢出议题、探索比例及社区选择。 & 观测评论主题分布、subreddit 分布和 profile preference 分布；使用 comment\_topic\_js、subreddit\_js、profile\_preference\_js 审计。 \\
+\hline
+人口与身份分布 & 机器人群体在身份属性、社会背景、兴趣偏好和活跃类型上的组成变化，用于降低 persona 模板的同质性。 & 通过 age、region、ideology、education、interest\_weights、population\_cluster、persona\_diversity\_strength 等变量控制群体构成和个体差异。 & 观测年龄、地区、意识形态、教育水平和兴趣偏好分布；使用 age\_ks、gender\_js、region\_js、educationlevel\_js、ideology\_js、preference\_js 审计。 \\
+\hline
+行为动作 & 机器人在社交环境中选择行动类型的分布变化，包括发帖、一级评论、二级回复、跳过、探索和争论参与。 & 通过 post\_tendency、reply\_tendency、exploration\_tendency、debate\_tendency、activity\_cluster、skip\_bias 等变量控制动作倾向和活跃度差异。 & 观测动作类型比例、每用户评论数、每用户发帖数和活跃不均衡程度；使用 action\_distribution\_js、comments\_per\_user\_ks、posts\_per\_user\_ks、activity\_gini\_shift 审计。 \\
+\hline
+图结构 & 机器人与其他用户之间形成的有向互动网络结构变化，包括出入度、目标作者多样性、互惠关系和线程局部互动。 & 通过 graph\_affinity、reply\_tendency、graph\_target、target\_bot\_authored\_cap 等变量控制二级回复、弱关系互动、目标作者选择和 bot-authored 内容暴露上限。 & 观测出边权重、入边权重、方向平衡、互惠比例、目标作者数量和入边作者数量；使用 total\_out\_weight\_proxy、total\_in\_weight\_proxy、direction\_balance\_proxy、reciprocal\_share\_proxy、unique\_target\_authors、unique\_inbound\_authors 的 KS 距离审计。 \\
+\hline
+时间节律 & 行为事件在时间轴上的分布变化，包括响应延迟、事件间隔、日内活跃时间、爆发式活跃和沉默期。 & 通过 temporal\_profile 中的 post\_delay\_min/max、comment\_delay\_min/max、burstiness、silence\_ratio 等变量控制发帖延迟、评论延迟、活动密度和沉默窗口。 & 观测事件间隔分布、小时分布和事件间隔标准差；使用 interarrival\_ks、hour\_js、burstiness\_shift 审计。 \\
+\hline
+记忆与回访 & 机器人基于自身历史、通知队列和线程记忆进行后续浏览或回复的分布变化，刻画从单次响应到多轮社交参与的漂移。 & 通过 revisit\_tendency、notification\_reactivity、thread\_memory、notification\_window 等变量控制是否回访自己的帖子/评论、是否响应他人回复以及回访窗口长度。 & 观测候选内容来源分布、回访次数、通知创建次数和 own-history 浏览比例；使用 candidate\_source\_js、revisit\_count\_shift、notification\_count\_shift 审计。 \\
+\hline
+生成模型混合 & 生成端模型来源、模型版本和采样温度的混合分布变化，用于引入生成器层面的异质性，但不向检测器暴露模型标签。 & 通过 llm\_provider、llm\_model、llm\_temperature、llm\_reasoning\_effort 以及 OpenAI-compatible/Gemini-compatible 模型池控制生成模型组合。 & 观测 provider、model 和 temperature 分布；使用 provider\_js、model\_js、temperature\_ks 审计。该类字段仅用于生成审计和分组分析，不作为检测器输入特征。 \\
+\hline
+\end{tabular}
+\end{table*}
+
+\begin{table}[t]
+\centering
+\small
+\caption{当前连续泛化实验中三个 family 的漂移重点。}
+\label{tab:continuous-drift-families}
+\begin{tabular}{p{2.4cm}p{3.0cm}p{3.0cm}p{5.0cm}}
+\hline
+\textbf{Family} & \textbf{主要目标维度} & \textbf{弱化或冻结维度} & \textbf{实验含义} \\
+\hline
+A\_language\_drift & language, topic\_content & graph\_structure, temporal\_rhythm & 主要检验文本检测器是否能泛化到新的说话风格和话题偏好。 \\
+\hline
+C\_graph\_drift & graph\_structure, memory\_revisit & language & 主要检验图结构检测器是否能泛化到新的互动关系、回访和弱关系模式。 \\
+\hline
+E\_mixed\_emergent\_drift & language, action\_behavior, graph\_structure 中随机选择 2--3 个 & 无固定冻结维度 & 模拟文本、行为和图结构共同变化的混合漂移，用来评估多因素变化下的跨代泛化。 \\
+\hline
+\end{tabular}
+\end{table}

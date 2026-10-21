@@ -1,0 +1,6 @@
+family,family_short,family_top_terms,overlap_with_d0_positive,family_specificity_overlap
+F1_original_architecture,F1,40,14,0.35
+F2_tfidf_informed_language,F2,40,0,0.0
+F3_human_anchor_local_tfidf,F3,40,1,0.025
+F4_peba_trait_prompt,F4,40,8,0.2
+F5_gemini_trait_prompt,F5,40,6,0.15

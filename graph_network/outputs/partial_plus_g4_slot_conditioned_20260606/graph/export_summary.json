@@ -1,0 +1,49 @@
+{
+  "run_dir": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606",
+  "graph_dir": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/graph",
+  "inputs": {
+    "users.csv": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/users.csv",
+    "posts.csv": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/posts.csv",
+    "comments.csv": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/comments.csv",
+    "events.jsonl": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/events.jsonl",
+    "labels.csv": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/labels.csv"
+  },
+  "outputs": {
+    "node_table": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/graph/node_table.csv",
+    "edge_table": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/graph/edge_table.csv",
+    "homogeneous_user_graph": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606/graph/homogeneous_user_graph.pt",
+    "homogeneous_user_graph_format": "pt"
+  },
+  "counts": {
+    "users": 3107,
+    "posts": 34685,
+    "comments": 49519,
+    "events": 4042,
+    "labels": 3107,
+    "nodes": 87311,
+    "edges": 189539,
+    "homogeneous_user_nodes": 3107,
+    "homogeneous_user_edges": 55816
+  },
+  "edge_type_counts": {
+    "user_writes_post": 34685,
+    "user_writes_comment": 49519,
+    "comment_replies_post": 45303,
+    "user_comments_on_user_post": 24763,
+    "user_receives_reply": 27026,
+    "comment_replies_comment": 4216,
+    "user_replies_to_user_comment": 3610,
+    "user_revisits_thread": 417
+  },
+  "required_edge_types_present": {
+    "user_writes_post": true,
+    "user_writes_comment": true,
+    "comment_replies_post": true,
+    "comment_replies_comment": true,
+    "user_comments_on_user_post": true,
+    "user_replies_to_user_comment": true,
+    "user_receives_reply": true,
+    "user_revisits_thread": true
+  },
+  "notes": "family is copied to audit tables only; homogeneous graph tensors do not include family features."
+}

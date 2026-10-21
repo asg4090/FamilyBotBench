@@ -1,0 +1,21 @@
+metric,value
+agents_created,50
+browse_events,150
+post_written,0
+comment1_written,39
+comment2_written,78
+revisit_written,33
+skip_events,0
+llm_calls,150
+llm_fallbacks,4
+notifications_created,17
+dry_run,False
+api,responses
+provider,openai
+model,gpt-5.4
+reasoning_effort,medium
+browse_count,10
+rounds,3
+generated_comment_rows,150
+behavior_summary,"{""bot_count"": 50, ""generated_post_count"": 0, ""generated_comment1_count"": 39, ""generated_comment2_count"": 111, ""generated_comment_count"": 150, ""action_counts"": {""comment1"": 39, ""comment2"": 78, ""revisit"": 33}, ""candidate_source_counts"": {""feed"": 91, ""explore"": 37, ""own_history"": 20, ""notification"": 2}, ""bot_to_bot_c1"": 0, ""bot_to_human_c1"": 39, ""bot_to_bot_c2"": 21, ""bot_to_human_c2"": 90, ""bot_to_bot_total"": 21, ""bot_to_human_total"": 129, ""notification_revisit_count"": 33, ""mean_browse_count"": 10.0, ""mean_posts_per_bot"": 0.0, ""mean_comments_per_bot"": 3.0, ""mean_comment_words"": 38.026666666666664}"
+run_dir,static_language/outputs/full_5family_50bot_3round_gpt54_20260601/families/F4_peba_trait_prompt/run

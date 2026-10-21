@@ -1,0 +1,24 @@
+{
+  "run_dir": "graph_network/outputs/partial_plus_g4_slot_conditioned_20260606",
+  "result_dir": "graph_network/results/partial_plus_g4_slot_conditioned_family_behavior_mixing_20260606",
+  "dataset_integrity_passed": true,
+  "generated_family_counts": {
+    "G1_population_calibrated": 50,
+    "G2_anchor_behavior": 50,
+    "G3_contextual_interactive": 50,
+    "G4_slot_conditioned": 50
+  },
+  "output_files": {
+    "behavior_by_bot_rows": 200,
+    "behavior_by_family_rows": 4,
+    "family_mixing_rows": 25,
+    "permutation_rows": 1,
+    "community_rows": 102,
+    "community_summary_rows": 1,
+    "graph_feature_rows": 3107,
+    "classifier_metric_rows": 2,
+    "classifier_confusion_rows": 32,
+    "human_percentile_rows": 200,
+    "human_alignment_rows": 4
+  }
+}

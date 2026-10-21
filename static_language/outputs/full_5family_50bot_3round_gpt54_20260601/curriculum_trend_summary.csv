@@ -1,0 +1,11 @@
+round,family,model,before_recall,after_recall,recovery_gain,unseen_gap
+1,F1_original_architecture,BGE,0.7,1.0,0.30000000000000004,0.30000000000000004
+2,F2_tfidf_informed_language,BGE,0.02,0.84,0.82,0.98
+3,F3_human_anchor_local_tfidf,BGE,0.68,0.96,0.2799999999999999,0.31999999999999995
+4,F4_peba_trait_prompt,BGE,1.0,1.0,0.0,0.0
+5,F5_gemini_trait_prompt,BGE,0.76,0.92,0.16000000000000003,0.24
+1,F1_original_architecture,TFIDF,0.0,1.0,1.0,1.0
+2,F2_tfidf_informed_language,TFIDF,0.02,1.0,0.98,0.98
+3,F3_human_anchor_local_tfidf,TFIDF,0.12,1.0,0.88,0.88
+4,F4_peba_trait_prompt,TFIDF,0.94,1.0,0.06000000000000005,0.06000000000000005
+5,F5_gemini_trait_prompt,TFIDF,0.6,1.0,0.4,0.4

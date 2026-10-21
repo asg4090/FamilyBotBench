@@ -1,0 +1,9 @@
+user_id,post_count,comment1_count,comment2_count,comment_count,mean_comment_words
+e_mixed_emergent_drift_g002_a02_2d194056_001,0,2,2,4,40.75
+e_mixed_emergent_drift_g002_a02_2d194056_002,0,2,2,4,18.5
+e_mixed_emergent_drift_g002_a02_2d194056_003,1,1,1,2,29.5
+e_mixed_emergent_drift_g002_a02_2d194056_004,1,0,3,3,19.666666666666668
+e_mixed_emergent_drift_g002_a02_2d194056_005,0,0,4,4,33.0
+e_mixed_emergent_drift_g002_a02_2d194056_006,0,0,4,4,36.5
+e_mixed_emergent_drift_g002_a02_2d194056_007,0,1,2,3,25.666666666666668
+e_mixed_emergent_drift_g002_a02_2d194056_008,1,3,0,3,26.0

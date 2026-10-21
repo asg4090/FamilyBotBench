@@ -1,0 +1,18 @@
+schema_version: familybotbench-release-v1
+paths:
+  original_root: ..
+  static_run: ../static_language/outputs/full_5family_50bot_3round_gpt54_20260601
+  embedding_root: ../baselines/text/modern_embedding_run
+  runtime_config: ../RedditBotSim/config.yml
+pipelines:
+  static_language:
+    output_dir: ../outputs/static_language
+  dynamic_drift:
+    output_dir: ../outputs/dynamic_drift
+  unsupervised:
+    input_dir: ../unsupervised/inputs/static_family
+    output_dir: ../outputs/unsupervised
+  text_evaluation:
+    output_dir: ../outputs/text_evaluation
+  order_evaluation:
+    output_dir: ../outputs/order_evaluation

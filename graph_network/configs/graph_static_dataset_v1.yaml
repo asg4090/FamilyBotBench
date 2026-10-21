@@ -1,0 +1,128 @@
+schema_version: static-graph-network-dataset-v1
+project_name: FamilyBotBench static graph
+paths:
+  project_root: ..
+  local_project_root: ..
+  input_root: ../inputs/original_botsim_snapshot
+  output_root: ../../outputs/graph_network
+  result_root: ../../outputs/graph_network_results
+  original_dataset_dir: ../inputs/original_botsim_snapshot/BotSim-24-Dataset
+  reddit_data_dir: ../inputs/original_botsim_snapshot/RedditData
+  mini_sample_dir: ../inputs/original_botsim_snapshot/mini_sample
+runtime:
+  python: python
+  seed: 20260603
+  browse_count: 10
+  max_concurrency: 8
+  retries: 2
+  llm_timeout_seconds: 90
+generation:
+  run_name: smoke_mixed_graph_3family
+  families:
+    G1_population_calibrated:
+      bots: 50
+      goal: mimic population-level human behavior distribution
+      uses_human_anchor: false
+      uses_environment_feedback: mild
+    G2_anchor_behavior:
+      bots: 50
+      goal: mimic specific human anchor behavior trajectories without copying text
+        or exact targets
+      uses_human_anchor: true
+      anchors_per_bot:
+      - 1
+      - 3
+      uses_environment_feedback: medium
+    G3_contextual_interactive:
+      bots: 50
+      goal: browse full threads, post, receive notifications, revisit, and form interaction
+        patterns dynamically
+      uses_human_anchor: optional
+      uses_environment_feedback: strong
+  time:
+    windows: 8
+    start_time: '2024-01-01 08:00:00'
+    window_hours: 12
+    interleave_families: true
+  human_reply_replay:
+    enabled: true
+    max_replay_per_bot_post: 2
+    max_replay_per_bot_comment: 1
+    replay_label: unknown_background
+llm:
+  max_tokens: 2048
+  providers:
+  - openai
+  - gemini
+  openai:
+    model: gpt-5.4
+    api: responses
+    reasoning_effort: medium
+    temperatures:
+    - 0.4
+    - 0.8
+  gemini:
+    model: gemini-3.5-flash
+    temperatures:
+    - 0.4
+    - 0.8
+  provider_mix_rule: mix providers inside each family; never bind one family to one
+    provider
+exports:
+  write_events_jsonl: true
+  write_action_trace: true
+  write_memory_trace: true
+  write_llm_trace: true
+  write_heterogeneous_graph: true
+  write_homogeneous_user_graph: true
+splits:
+  original_only_zero_shot: true
+  lofo: true
+  label_scarcity:
+  - 0.01
+  - 0.05
+  - 0.1
+  - 0.25
+  - 0.5
+  - 1.0
+  time_forward:
+    train_fraction: 0.6
+  incremental_curriculum:
+    orders:
+    - - G1_population_calibrated
+      - G2_anchor_behavior
+      - G3_contextual_interactive
+    - - G2_anchor_behavior
+      - G1_population_calibrated
+      - G3_contextual_interactive
+    - - G3_contextual_interactive
+      - G1_population_calibrated
+      - G2_anchor_behavior
+models:
+  graphstats:
+    enabled: true
+    models:
+    - LR
+    - EBM
+    - RF
+  gnn:
+    rgcn_transductive: true
+    graphsage_inductive: true
+    hgt_optional: false
+  text:
+    tfidf_lr: true
+    bge_lr: true
+  fusion:
+    enabled: true
+leakage_controls:
+  forbidden_features:
+  - user_id
+  - user_name
+  - family
+  - llm_provider
+  - llm_model
+  - llm_temperature
+  - run_name
+  - file_path
+  randomize_generated_ids: true
+  keep_family_for_group_analysis_only: true

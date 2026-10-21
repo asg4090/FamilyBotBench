@@ -1,0 +1,201 @@
+family,family_short,rank,term,coef,category
+F1_original_architecture,F1,1,public,0.7419566235397408,other
+F1_original_architecture,F1,2,real,0.6884490864724974,other
+F1_original_architecture,F1,3,support,0.644334974938259,other
+F1_original_architecture,F1,4,civilian,0.6078814418088009,other
+F1_original_architecture,F1,5,governments,0.5877709903249199,other
+F1_original_architecture,F1,6,yes,0.5623773120747482,other
+F1_original_architecture,F1,7,access,0.535102623479211,other
+F1_original_architecture,F1,8,institutions,0.5190215933958661,abstract_analysis
+F1_original_architecture,F1,9,conditions,0.47328744915054155,other
+F1_original_architecture,F1,10,civilian protection,0.4622737653828443,other
+F1_original_architecture,F1,11,protection,0.44811919777833825,other
+F1_original_architecture,F1,12,trust,0.4336956034699561,other
+F1_original_architecture,F1,13,europe,0.42672027694720094,other
+F1_original_architecture,F1,14,rules,0.42584800420409236,other
+F1_original_architecture,F1,15,allies,0.41036993004518146,other
+F1_original_architecture,F1,16,politics,0.40621826271697703,other
+F1_original_architecture,F1,17,war,0.3928396353242306,topic_entity
+F1_original_architecture,F1,18,speech,0.38826029224037223,other
+F1_original_architecture,F1,19,keeps,0.3840886095944292,other
+F1_original_architecture,F1,20,policy,0.3823598084487581,other
+F1_original_architecture,F1,21,defend,0.3722752383563582,other
+F1_original_architecture,F1,22,right defend,0.37207690924697817,other
+F1_original_architecture,F1,23,language,0.37170981626024535,other
+F1_original_architecture,F1,24,line,0.3710302477214499,other
+F1_original_architecture,F1,25,civilians,0.36390793962837314,other
+F1_original_architecture,F1,26,question,0.35651147750697926,formal_discourse
+F1_original_architecture,F1,27,standard,0.3344086321264222,other
+F1_original_architecture,F1,28,aid access,0.33333772634302866,other
+F1_original_architecture,F1,29,state,0.32957873337522925,other
+F1_original_architecture,F1,30,politically,0.3274388216146898,other
+F1_original_architecture,F1,31,political,0.32431985412125663,other
+F1_original_architecture,F1,32,stay,0.32325411564068046,other
+F1_original_architecture,F1,33,concern,0.3217512387099235,other
+F1_original_architecture,F1,34,child,0.3134052480665583,other
+F1_original_architecture,F1,35,influence,0.31299212589435527,other
+F1_original_architecture,F1,36,investigate,0.3052761777971494,other
+F1_original_architecture,F1,37,pauses,0.3029529472158359,other
+F1_original_architecture,F1,38,crisis,0.30117876889370365,other
+F1_original_architecture,F1,39,partisan,0.29824512937434217,other
+F1_original_architecture,F1,40,long,0.2901434130125711,other
+F2_tfidf_informed_language,F2,1,2019,0.7757713977423233,other
+F2_tfidf_informed_language,F2,2,comparison,0.736851734060907,other
+F2_tfidf_informed_language,F2,3,weeks,0.7168600689828897,other
+F2_tfidf_informed_language,F2,4,source,0.7110327181466273,other
+F2_tfidf_informed_language,F2,5,number,0.589215721597319,other
+F2_tfidf_informed_language,F2,6,year,0.5376689810679385,other
+F2_tfidf_informed_language,F2,7,versus,0.5369757786517968,other
+F2_tfidf_informed_language,F2,8,headline,0.49538807389344663,other
+F2_tfidf_informed_language,F2,9,claim,0.45440880420176655,other
+F2_tfidf_informed_language,F2,10,gaza,0.44725552813351077,topic_entity
+F2_tfidf_informed_language,F2,11,save,0.4191183762756369,other
+F2_tfidf_informed_language,F2,12,save children,0.4191183762756369,other
+F2_tfidf_informed_language,F2,13,versus year,0.4177574298971763,other
+F2_tfidf_informed_language,F2,14,want,0.41552161275598637,other
+F2_tfidf_informed_language,F2,15,specific,0.40004541079403305,other
+F2_tfidf_informed_language,F2,16,arrested,0.39926092850659367,other
+F2_tfidf_informed_language,F2,17,stat,0.3924424353439274,other
+F2_tfidf_informed_language,F2,18,weeks versus,0.3718136654859221,other
+F2_tfidf_informed_language,F2,19,year 2019,0.36925591538463926,other
+F2_tfidf_informed_language,F2,20,post,0.3651016209007913,other
+F2_tfidf_informed_language,F2,21,exact,0.36304549691553173,other
+F2_tfidf_informed_language,F2,22,2019 comparison,0.3592537838081665,other
+F2_tfidf_informed_language,F2,23,got,0.3568562544865678,reddit_colloquial
+F2_tfidf_informed_language,F2,24,horrifying,0.34592048779342743,stance_emotion
+F2_tfidf_informed_language,F2,25,count,0.33492151407911386,other
+F2_tfidf_informed_language,F2,26,source line,0.3316989118941231,other
+F2_tfidf_informed_language,F2,27,used,0.3271399387333357,other
+F2_tfidf_informed_language,F2,28,charged,0.3261847447529522,other
+F2_tfidf_informed_language,F2,29,2019 specific,0.32129882282004407,other
+F2_tfidf_informed_language,F2,30,yearly,0.32062029666441566,other
+F2_tfidf_informed_language,F2,31,used 2019,0.31676540695102334,other
+F2_tfidf_informed_language,F2,32,work,0.31611895109827925,other
+F2_tfidf_informed_language,F2,33,version,0.3004639127922103,other
+F2_tfidf_informed_language,F2,34,arguing,0.3003329596783656,other
+F2_tfidf_informed_language,F2,35,dates,0.29952148087846914,other
+F2_tfidf_informed_language,F2,36,half thread,0.29711209955956985,other
+F2_tfidf_informed_language,F2,37,arrested released,0.29398394181511,other
+F2_tfidf_informed_language,F2,38,compared,0.2915682967653974,other
+F2_tfidf_informed_language,F2,39,global conflict,0.2801818393340643,other
+F2_tfidf_informed_language,F2,40,health ministry,0.27981867652965486,other
+F3_human_anchor_local_tfidf,F3,1,hostages,0.8985054349578921,other
+F3_human_anchor_local_tfidf,F3,2,hamas,0.5951850394892543,topic_entity
+F3_human_anchor_local_tfidf,F3,3,people,0.5907656255415458,reddit_colloquial
+F3_human_anchor_local_tfidf,F3,4,yeah,0.5360239916941474,reddit_colloquial
+F3_human_anchor_local_tfidf,F3,5,dead,0.5120350308232686,other
+F3_human_anchor_local_tfidf,F3,6,make,0.49424189616575653,other
+F3_human_anchor_local_tfidf,F3,7,thing,0.49279175182667273,reddit_colloquial
+F3_human_anchor_local_tfidf,F3,8,hell,0.47058031209430784,other
+F3_human_anchor_local_tfidf,F3,9,want,0.45298360404714794,other
+F3_human_anchor_local_tfidf,F3,10,getting,0.45037538190485576,other
+F3_human_anchor_local_tfidf,F3,11,horrific,0.4363636810651588,other
+F3_human_anchor_local_tfidf,F3,12,killed,0.42768393952221423,other
+F3_human_anchor_local_tfidf,F3,13,stuff,0.38375695806088655,other
+F3_human_anchor_local_tfidf,F3,14,say,0.383720052368434,other
+F3_human_anchor_local_tfidf,F3,15,cable,0.38090143262148934,other
+F3_human_anchor_local_tfidf,F3,16,argument,0.37453268131681416,other
+F3_human_anchor_local_tfidf,F3,17,home,0.37427693985417104,other
+F3_human_anchor_local_tfidf,F3,18,dragging,0.36696236542958843,other
+F3_human_anchor_local_tfidf,F3,19,person,0.3654696537649898,other
+F3_human_anchor_local_tfidf,F3,20,guy,0.36144240184624754,reddit_colloquial
+F3_human_anchor_local_tfidf,F3,21,drug,0.357367305395877,other
+F3_human_anchor_local_tfidf,F3,22,trucks,0.35501516766833974,other
+F3_human_anchor_local_tfidf,F3,23,dead kids,0.3412301219943628,other
+F3_human_anchor_local_tfidf,F3,24,cable news,0.3405746282710802,other
+F3_human_anchor_local_tfidf,F3,25,israel,0.3364578833636296,topic_entity
+F3_human_anchor_local_tfidf,F3,26,aid trucks,0.3335301372012835,other
+F3_human_anchor_local_tfidf,F3,27,attack,0.3283922378576138,other
+F3_human_anchor_local_tfidf,F3,28,biden,0.3164636394546413,topic_entity
+F3_human_anchor_local_tfidf,F3,29,past,0.31181326397804177,other
+F3_human_anchor_local_tfidf,F3,30,kids,0.30637759718444,other
+F3_human_anchor_local_tfidf,F3,31,clean,0.3001027792626484,other
+F3_human_anchor_local_tfidf,F3,32,shit,0.2936305682245462,reddit_colloquial
+F3_human_anchor_local_tfidf,F3,33,story,0.2893863174809258,other
+F3_human_anchor_local_tfidf,F3,34,apart,0.28197541229975837,other
+F3_human_anchor_local_tfidf,F3,35,aid,0.27914024619938854,other
+F3_human_anchor_local_tfidf,F3,36,charge,0.27795147721317826,other
+F3_human_anchor_local_tfidf,F3,37,news,0.27282544533702097,other
+F3_human_anchor_local_tfidf,F3,38,rewrite,0.26773207292906714,other
+F3_human_anchor_local_tfidf,F3,39,ugly,0.2631275802857155,other
+F3_human_anchor_local_tfidf,F3,40,blown,0.2618621633784528,other
+F4_peba_trait_prompt,F4,1,action,0.8301509743608314,other
+F4_peba_trait_prompt,F4,2,protests,0.6604326145752921,other
+F4_peba_trait_prompt,F4,3,flag protests,0.6543409612866723,other
+F4_peba_trait_prompt,F4,4,ukraine,0.6290033311493811,topic_entity
+F4_peba_trait_prompt,F4,5,ceasefire aid,0.6062809150486309,other
+F4_peba_trait_prompt,F4,6,small correction,0.5376047811776656,other
+F4_peba_trait_prompt,F4,7,correction,0.5263284613203739,other
+F4_peba_trait_prompt,F4,8,wrong,0.5247253643903098,stance_emotion
+F4_peba_trait_prompt,F4,9,thread,0.5075359298060896,other
+F4_peba_trait_prompt,F4,10,flag,0.4873118296788884,other
+F4_peba_trait_prompt,F4,11,wrong thread,0.48112504464928196,stance_emotion
+F4_peba_trait_prompt,F4,12,scrutiny,0.48084184122299584,other
+F4_peba_trait_prompt,F4,13,urgent action,0.45716258699181495,other
+F4_peba_trait_prompt,F4,14,unicef,0.4126985342425314,other
+F4_peba_trait_prompt,F4,15,indifference,0.4065508447750973,other
+F4_peba_trait_prompt,F4,16,conduct,0.3941924896205164,other
+F4_peba_trait_prompt,F4,17,using flag,0.37987313988272076,other
+F4_peba_trait_prompt,F4,18,small,0.3699236897599472,other
+F4_peba_trait_prompt,F4,19,global indifference,0.3486091685365821,other
+F4_peba_trait_prompt,F4,20,ceasefire,0.3477393590003578,other
+F4_peba_trait_prompt,F4,21,air,0.3396434148622598,other
+F4_peba_trait_prompt,F4,22,post flag,0.3315224841401797,other
+F4_peba_trait_prompt,F4,23,supporters using,0.329468793091458,other
+F4_peba_trait_prompt,F4,24,air defense,0.3264602633300967,other
+F4_peba_trait_prompt,F4,25,displaced,0.3129618946897657,other
+F4_peba_trait_prompt,F4,26,supporters,0.30757319384179244,other
+F4_peba_trait_prompt,F4,27,aid access,0.30278360104594837,other
+F4_peba_trait_prompt,F4,28,interceptors,0.2980040792047843,other
+F4_peba_trait_prompt,F4,29,point,0.29208636921438524,other
+F4_peba_trait_prompt,F4,30,turning,0.2918283754070064,other
+F4_peba_trait_prompt,F4,31,using,0.28474813051070924,other
+F4_peba_trait_prompt,F4,32,post,0.2840399807654673,other
+F4_peba_trait_prompt,F4,33,getting hit,0.28286121775018075,other
+F4_peba_trait_prompt,F4,34,comment,0.2824259345021585,other
+F4_peba_trait_prompt,F4,35,asking,0.2817314478685495,other
+F4_peba_trait_prompt,F4,36,asking air,0.2802026856826698,other
+F4_peba_trait_prompt,F4,37,places,0.2777127291469758,other
+F4_peba_trait_prompt,F4,38,families,0.27468687988485685,other
+F4_peba_trait_prompt,F4,39,paste,0.27081630446627986,other
+F4_peba_trait_prompt,F4,40,actual conduct,0.2696553046892901,other
+F5_gemini_trait_prompt,F5,1,just,1.2062854722728458,reddit_colloquial
+F5_gemini_trait_prompt,F5,2,actually,0.8254012406445695,other
+F5_gemini_trait_prompt,F5,3,overseas,0.7247262613021119,other
+F5_gemini_trait_prompt,F5,4,probably,0.5857839058775904,other
+F5_gemini_trait_prompt,F5,5,guess,0.5023602645083752,other
+F5_gemini_trait_prompt,F5,6,millions,0.500934420382146,other
+F5_gemini_trait_prompt,F5,7,ground,0.4536699112161978,other
+F5_gemini_trait_prompt,F5,8,deals,0.4476003903174631,other
+F5_gemini_trait_prompt,F5,9,bank,0.4275760664675649,other
+F5_gemini_trait_prompt,F5,10,completely,0.4079899775916562,other
+F5_gemini_trait_prompt,F5,11,wait,0.4053115630148465,other
+F5_gemini_trait_prompt,F5,12,folks,0.4049584448437446,other
+F5_gemini_trait_prompt,F5,13,timeline,0.4018127630756925,other
+F5_gemini_trait_prompt,F5,14,business deals,0.3988978909140814,other
+F5_gemini_trait_prompt,F5,15,numbers,0.3870222514474069,other
+F5_gemini_trait_prompt,F5,16,weaponizing,0.38640167676844694,other
+F5_gemini_trait_prompt,F5,17,definitely,0.38473968964128386,other
+F5_gemini_trait_prompt,F5,18,literally,0.38470305858614784,other
+F5_gemini_trait_prompt,F5,19,suppose,0.3771355434549379,other
+F5_gemini_trait_prompt,F5,20,foreign,0.370176482525345,other
+F5_gemini_trait_prompt,F5,21,honest,0.3479061542688441,other
+F5_gemini_trait_prompt,F5,22,business,0.34008791909903774,other
+F5_gemini_trait_prompt,F5,23,500,0.33940555105203085,other
+F5_gemini_trait_prompt,F5,24,day,0.3354870825071231,other
+F5_gemini_trait_prompt,F5,25,incapacitated,0.3324830407470086,other
+F5_gemini_trait_prompt,F5,26,exhausting,0.3233445980795112,other
+F5_gemini_trait_prompt,F5,27,financial,0.31955158681951756,other
+F5_gemini_trait_prompt,F5,28,paper,0.2986101912156599,other
+F5_gemini_trait_prompt,F5,29,clickbait,0.29062717959021683,other
+F5_gemini_trait_prompt,F5,30,parent,0.2894450065312664,other
+F5_gemini_trait_prompt,F5,31,guys,0.2818415557623565,other
+F5_gemini_trait_prompt,F5,32,seeing,0.28094765771408686,other
+F5_gemini_trait_prompt,F5,33,bank records,0.27763061400085143,other
+F5_gemini_trait_prompt,F5,34,records,0.27763061400085143,other
+F5_gemini_trait_prompt,F5,35,ignoring,0.2763495143911308,other
+F5_gemini_trait_prompt,F5,36,stretch,0.27353981454669335,other
+F5_gemini_trait_prompt,F5,37,overseas money,0.26826901471743425,other
+F5_gemini_trait_prompt,F5,38,dealing,0.2682132296708334,other
+F5_gemini_trait_prompt,F5,39,single,0.26628394156166146,other
+F5_gemini_trait_prompt,F5,40,verifying,0.2612910009458065,other

@@ -1,0 +1,2 @@
+scope,edge_count,observed,random_mean,random_std,z_score,empirical_p,permutations
+generated_bot_to_generated_bot_edges,1334,0.272863568215892,0.2470029985007496,0.027647476308486196,0.9353681842998705,0.18981018981018982,1000

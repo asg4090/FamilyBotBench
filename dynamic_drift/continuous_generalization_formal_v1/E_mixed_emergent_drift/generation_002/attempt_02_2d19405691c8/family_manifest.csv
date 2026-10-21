@@ -1,0 +1,9 @@
+user_id,user_name,family,family_generation,family_round,provider,model,temperature,reasoning_effort,graph_affinity,notification_reactivity,post_tendency,reply_tendency,revisit_tendency,exploration_tendency,traits_json
+e_mixed_emergent_drift_g002_a02_2d194056_006,SidewalkSam_e_mixed_emergent_drift_g2,E_mixed_emergent_drift,2,2,gemini,gemini-3-flash-preview,0.4,medium,0.99,0.731,0.01,0.967,0.439,0.949,{}
+e_mixed_emergent_drift_g002_a02_2d194056_008,BusStopMia_e_mixed_emergent_drift_g2,E_mixed_emergent_drift,2,2,gemini,gemini-3-flash-preview,0.4,medium,0.99,0.707,0.604,0.927,0.338,0.9,{}
+e_mixed_emergent_drift_g002_a02_2d194056_002,DinerCoffee_e_mixed_emergent_drift_g2,E_mixed_emergent_drift,2,2,gemini,gemini-3-pro-preview,0.8,medium,0.936,0.769,0.01,0.494,0.596,0.792,{}
+e_mixed_emergent_drift_g002_a02_2d194056_003,LakeErieGuy_e_mixed_emergent_drift_g2,E_mixed_emergent_drift,2,2,gemini,gemini-3-pro-preview,0.8,medium,0.99,0.724,0.66,0.99,0.458,0.932,{}
+e_mixed_emergent_drift_g002_a02_2d194056_007,TinyDeskFan_e_mixed_emergent_drift_g2,E_mixed_emergent_drift,2,2,gemini,gemini-3-pro-preview,0.8,medium,0.99,0.72,0.58,0.81,0.291,0.98,{}
+e_mixed_emergent_drift_g002_a02_2d194056_005,CheapHeadphones_e_mixed_emergent_drift_g2,E_mixed_emergent_drift,2,2,gemini,gemini-3-flash-preview,0.4,medium,0.936,0.734,0.245,0.99,0.469,0.824,{}
+e_mixed_emergent_drift_g002_a02_2d194056_004,RainyWindow_e_mixed_emergent_drift_g2,E_mixed_emergent_drift,2,2,gemini,gemini-3-pro-preview,0.8,medium,0.911,0.718,0.341,0.414,0.38,0.944,{}
+e_mixed_emergent_drift_g002_a02_2d194056_001,PaperBagLunch_e_mixed_emergent_drift_g2,E_mixed_emergent_drift,2,2,gemini,gemini-3-flash-preview,0.4,medium,0.99,0.72,0.046,0.99,0.356,0.98,{}

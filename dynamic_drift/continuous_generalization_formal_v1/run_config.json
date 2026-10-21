@@ -1,0 +1,36 @@
+{
+  "args": {
+    "output_dir": "dynamic_drift/continuous_generalization_formal_v1",
+    "families": "A_language_drift,C_graph_drift,E_mixed_emergent_drift",
+    "generations": 3,
+    "bots_per_family": 8,
+    "rounds": 4,
+    "browse_count": 10,
+    "concurrency": 6,
+    "retries": 2,
+    "llm_timeout": 90.0,
+    "max_resample": 3,
+    "providers": "gemini",
+    "seed": 20260608,
+    "api": "responses",
+    "reasoning_effort": "medium",
+    "graph_epochs": 12,
+    "graph_hidden_dim": 64,
+    "truncate_words": 600,
+    "bge_model": "BAAI/bge-small-en-v1.5",
+    "batch_size": 16,
+    "max_length": 512,
+    "device": "auto",
+    "skip_bge": false,
+    "dry_run": false,
+    "skip_generation": false,
+    "skip_quick_feedback": false,
+    "skip_generalization": false,
+    "clean": false
+  },
+  "families": [
+    "A_language_drift",
+    "C_graph_drift",
+    "E_mixed_emergent_drift"
+  ]
+}

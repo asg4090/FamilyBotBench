@@ -1,0 +1,3 @@
+round,family,model,size,bot_count,accuracy,precision,recall,bot_detected,bot_mean_probability
+1,F1_original_architecture,GraphStats_LR,50,50,0.84,1.0,0.84,42,0.7142123726886741
+1,F1_original_architecture,GraphStats_RF,50,50,1.0,1.0,1.0,50,0.9756905319628261

@@ -1,0 +1,9 @@
+condition,edge_count,human_to_g4_edges,g4_to_human_edges,g4_to_g4_edges,edge_type,count
+full_rebuilt,55399.0,930.0,448.0,12.0,,
+full_rebuilt,,,,,user_receives_reply,27026.0
+full_rebuilt,,,,,user_comments_on_user_post,24763.0
+full_rebuilt,,,,,user_replies_to_user_comment,3610.0
+g4_no_replay,54284.0,0.0,448.0,12.0,,
+g4_no_replay,,,,,user_receives_reply,26406.0
+g4_no_replay,,,,,user_comments_on_user_post,24505.0
+g4_no_replay,,,,,user_replies_to_user_comment,3373.0

@@ -1,0 +1,9 @@
+user_id,C1_P_out_weight_proxy,C2_C1_out_weight_proxy,C1_P_in_weight_proxy,C2_C1_in_weight_proxy,total_out_weight_proxy,total_in_weight_proxy,direction_balance_proxy,reciprocal_neighbor_count_proxy,reciprocal_share_proxy,unique_target_authors,unique_inbound_authors
+e_mixed_emergent_drift_g001_a01_bd76136a_001,0,2,1,0,2,1,0.6666666666666666,0,0.0,1,1
+e_mixed_emergent_drift_g001_a01_bd76136a_002,1,2,0,0,3,0,1.0,0,0.0,2,0
+e_mixed_emergent_drift_g001_a01_bd76136a_003,0,3,1,0,3,1,0.75,1,0.5,2,1
+e_mixed_emergent_drift_g001_a01_bd76136a_004,0,2,0,0,2,0,1.0,0,0.0,1,0
+e_mixed_emergent_drift_g001_a01_bd76136a_005,3,0,0,2,3,2,0.6,2,0.6666666666666666,3,2
+e_mixed_emergent_drift_g001_a01_bd76136a_006,1,2,0,0,3,0,1.0,0,0.0,2,0
+e_mixed_emergent_drift_g001_a01_bd76136a_007,1,2,2,0,3,2,0.6,1,0.25,3,2
+e_mixed_emergent_drift_g001_a01_bd76136a_008,1,2,0,0,3,0,1.0,0,0.0,2,0

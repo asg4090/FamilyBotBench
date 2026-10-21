@@ -1,0 +1,9 @@
+setting,model,recall,detected,n,wilson_hw
+In-family transfer,tfidf,0.976,244,250,0.020159084660189227
+Cross-family transfer,tfidf,0.186,186,1000,0.024100865276134892
+Original-only zero-shot,tfidf,0.0,0,250,0.007566923624811693
+LOFO held-out,tfidf,0.848,212,250,0.04447953718054641
+In-family transfer,bge,0.88,220,250,0.040388199796277745
+Cross-family transfer,bge,0.537,537,1000,0.030846485563950917
+Original-only zero-shot,bge,0.204,51,250,0.049775110610120486
+LOFO held-out,bge,0.892,223,250,0.0386410207765855

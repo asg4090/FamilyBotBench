@@ -1,0 +1,67 @@
+{
+  "agents_created": 8,
+  "browse_events": 32,
+  "post_written": 3,
+  "comment1_written": 8,
+  "comment2_written": 15,
+  "revisit_written": 5,
+  "skip_events": 1,
+  "llm_calls": 31,
+  "llm_fallbacks": 0,
+  "notifications_created": 12,
+  "dry_run": false,
+  "api": "responses",
+  "provider": "gemini",
+  "model": "mixed_per_persona",
+  "provider_counts": {
+    "gemini": 8
+  },
+  "model_counts": {
+    "gemini-3-flash-preview": 4,
+    "gemini-3-pro-preview": 4
+  },
+  "temperature_counts": {
+    "0.4": 4,
+    "0.8": 4
+  },
+  "reasoning_effort": "medium",
+  "browse_count": 10,
+  "rounds": 4,
+  "decision_mode": "system_first",
+  "generated_post_rows": 3,
+  "generated_comment_rows": 28,
+  "behavior_summary": {
+    "bot_count": 8,
+    "generated_post_count": 3,
+    "generated_comment1_count": 8,
+    "generated_comment2_count": 20,
+    "generated_comment_count": 28,
+    "action_counts": {
+      "comment2": 15,
+      "comment1": 8,
+      "post": 3,
+      "skip": 1,
+      "revisit": 5
+    },
+    "candidate_source_counts": {
+      "thread": 14,
+      "feed": 9,
+      "": 3,
+      "skip": 1,
+      "notification": 4,
+      "explore": 1
+    },
+    "bot_to_bot_c1": 6,
+    "bot_to_human_c1": 2,
+    "bot_to_bot_c2": 8,
+    "bot_to_human_c2": 12,
+    "bot_to_bot_total": 14,
+    "bot_to_human_total": 14,
+    "notification_revisit_count": 5,
+    "mean_browse_count": 8.84375,
+    "mean_posts_per_bot": 0.375,
+    "mean_comments_per_bot": 3.5,
+    "mean_comment_words": 34.6875
+  },
+  "run_dir": "dynamic_drift/continuous_generalization_formal_v1/A_language_drift/generation_003/attempt_01_4229e2850ada/run"
+}

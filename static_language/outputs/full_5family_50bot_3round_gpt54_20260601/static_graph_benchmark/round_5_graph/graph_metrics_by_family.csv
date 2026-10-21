@@ -1,0 +1,3 @@
+round,family,model,size,bot_count,accuracy,precision,recall,bot_detected,bot_mean_probability
+5,F5_gemini_trait_prompt,GraphStats_LR,50,50,0.68,1.0,0.68,34,0.6194544576550192
+5,F5_gemini_trait_prompt,GraphStats_RF,50,50,1.0,1.0,1.0,50,0.9783609487677198

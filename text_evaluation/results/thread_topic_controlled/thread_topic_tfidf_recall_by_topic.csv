@@ -1,0 +1,7 @@
+display_topic,topic,bot_recall,bot_test_n
+Overall,__overall__,0.9876543209876543,162
+Israel/Palestine,israel_palestine_middle_east,0.9833333333333333,60
+Russia/Ukraine,russia_ukraine_war,1.0,15
+US politics,us_politics_elections,1.0,53
+Law/rights,law_crime_rights,1.0,17
+Other/mixed,other_or_mixed,0.9411764705882353,17

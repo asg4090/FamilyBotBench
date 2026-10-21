@@ -1,0 +1,9 @@
+user_id,C1_P_out_weight_proxy,C2_C1_out_weight_proxy,C1_P_in_weight_proxy,C2_C1_in_weight_proxy,total_out_weight_proxy,total_in_weight_proxy,direction_balance_proxy,reciprocal_neighbor_count_proxy,reciprocal_share_proxy,unique_target_authors,unique_inbound_authors
+c_graph_drift_g002_a03_e67a6eae_001,0,1,0,0,1,0,1.0,0,0.0,1,0
+c_graph_drift_g002_a03_e67a6eae_002,2,2,0,3,4,3,0.5714285714285714,2,0.5,3,2
+c_graph_drift_g002_a03_e67a6eae_003,1,1,1,0,2,1,0.6666666666666666,1,0.5,2,1
+c_graph_drift_g002_a03_e67a6eae_004,1,2,0,0,3,0,1.0,0,0.0,2,0
+c_graph_drift_g002_a03_e67a6eae_005,2,1,0,0,3,0,1.0,0,0.0,3,0
+c_graph_drift_g002_a03_e67a6eae_006,1,1,1,0,2,1,0.6666666666666666,0,0.0,1,1
+c_graph_drift_g002_a03_e67a6eae_007,0,2,1,0,2,1,0.6666666666666666,1,0.5,2,1
+c_graph_drift_g002_a03_e67a6eae_008,0,2,1,0,2,1,0.6666666666666666,0,0.0,1,1

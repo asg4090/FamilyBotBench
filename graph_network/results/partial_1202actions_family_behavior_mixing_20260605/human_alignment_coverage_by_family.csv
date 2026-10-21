@@ -1,0 +1,4 @@
+family,comment1_rate_within_5_95_share,comment2_rate_within_5_95_share,component_size_within_5_95_share,direction_balance_within_5_95_share,receive_rate_within_5_95_share,reciprocal_share_within_5_95_share,total_degree_within_5_95_share,total_in_degree_within_5_95_share,total_out_degree_within_5_95_share,unique_target_authors_within_5_95_share
+G1_population_calibrated,1.0,0.3,1.0,1.0,1.0,0.02,1.0,1.0,1.0,1.0
+G2_anchor_behavior,1.0,0.26,1.0,1.0,1.0,0.04,1.0,1.0,1.0,1.0
+G3_contextual_interactive,1.0,0.44,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0

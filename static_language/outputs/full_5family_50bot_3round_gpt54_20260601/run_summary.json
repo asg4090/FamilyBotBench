@@ -1,0 +1,16 @@
+{
+  "families": [
+    "F1_original_architecture",
+    "F2_tfidf_informed_language",
+    "F3_human_anchor_local_tfidf",
+    "F4_peba_trait_prompt",
+    "F5_gemini_trait_prompt"
+  ],
+  "bots_per_family": 50,
+  "total_generated_bots": 250,
+  "dry_run": false,
+  "openai_model": "gpt-5.4",
+  "gemini_model": "gemini-3-pro-preview",
+  "bge_enabled": true,
+  "output_dir": "static_language/outputs/full_5family_50bot_3round_gpt54_20260601"
+}

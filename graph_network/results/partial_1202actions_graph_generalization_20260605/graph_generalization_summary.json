@@ -1,0 +1,17 @@
+{
+  "zero_shot_graphstats_lr_recall": 0.0,
+  "lofo_graphstats_lr_mean_recall": 0.9266666666666667,
+  "curriculum_graphstats_lr_step_mean_recall": {
+    "1": 0.0,
+    "2": 0.8533333333333334,
+    "3": 0.96
+  },
+  "figures": {
+    "zero_shot": "graph_network/results/partial_1202actions_graph_generalization_20260605/figures/zero_shot_recall.png",
+    "lofo": "graph_network/results/partial_1202actions_graph_generalization_20260605/figures/lofo_recall_matrix.png",
+    "label_scarcity": "graph_network/results/partial_1202actions_graph_generalization_20260605/figures/label_scarcity_curve.png",
+    "curriculum": "graph_network/results/partial_1202actions_graph_generalization_20260605/figures/incremental_curriculum_recall.png",
+    "shortcut": "graph_network/results/partial_1202actions_graph_generalization_20260605/figures/shortcut_audit.png"
+  },
+  "report": "graph_network/results/partial_1202actions_graph_generalization_20260605/GRAPH_GENERALIZATION_REPORT_CN.md"
+}

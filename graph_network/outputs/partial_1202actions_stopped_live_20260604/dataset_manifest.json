@@ -1,0 +1,29 @@
+{
+  "bot_families": [
+    "G1_population_calibrated",
+    "G2_anchor_behavior",
+    "G3_contextual_interactive"
+  ],
+  "bots_per_family": 1,
+  "browse_count": 10,
+  "created_at": "2026-06-04 12:45:32",
+  "dry_run": false,
+  "environment": "mixed_dynamic_reddit_offline",
+  "family_counts": {
+    "G1_population_calibrated": 50,
+    "G2_anchor_behavior": 50,
+    "G3_contextual_interactive": 50
+  },
+  "human_reply_replay": {
+    "created": 0,
+    "reason": "partial materialization from live trace; human replay not applied"
+  },
+  "live_llm": true,
+  "notes": "First runnable mixed runner; background is loaded from project-local BotSim JSON snapshot when available.",
+  "policy_source": "social_family_policies.py",
+  "run_name": "full_3family_150bot_24window_live",
+  "schema_version": "static-graph-network-dataset-v1",
+  "seed": 20260609,
+  "source_dataset": "graph_network/inputs/original_botsim_snapshot/BotSim-24-Dataset",
+  "time_windows": 24
+}

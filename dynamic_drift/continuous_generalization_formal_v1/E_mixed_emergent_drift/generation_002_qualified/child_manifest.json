@@ -1,0 +1,482 @@
+{
+  "family": "E_mixed_emergent_drift",
+  "generation": 2,
+  "count": 8,
+  "seed": 20262677,
+  "family_version": "g002-a03-b4df5853",
+  "mutation_parent": null,
+  "mutation_reason": null,
+  "mutation_id": null,
+  "mutation_depth": 0,
+  "mutation_deltas": {},
+  "lineage": [],
+  "dimension_axes": {
+    "language": 0.9756,
+    "topic_content": 0.4789,
+    "persona_population": 0.1106,
+    "action_behavior": 0.9567,
+    "graph_structure": 0.9739,
+    "temporal_rhythm": 0.4754,
+    "memory_revisit": 0.353,
+    "llm_generation": 0.1444
+  },
+  "time_profile": {},
+  "model_pool": [
+    {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "temperature": 0.4,
+      "reasoning_effort": "medium"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3-pro-preview",
+      "temperature": 0.8,
+      "reasoning_effort": "medium"
+    }
+  ],
+  "feedback": {
+    "text_pressure": 0.82,
+    "behavior_pressure": 0.86,
+    "graph_pressure": 0.81,
+    "time_pressure": 0.78,
+    "pressure": 0.88,
+    "detector_pressure": 0.2812
+  },
+  "mutation": {},
+  "family_spec": {},
+  "personas": [
+    {
+      "user_id": "e_mixed_emergent_drift_g002_a03_b4df5853_007",
+      "user_name": "TinyDeskFan_e_mixed_emergent_drift_g2",
+      "age": 26,
+      "gender": "Female",
+      "region": "Canadian, Toronto",
+      "education": "Some college",
+      "ideology": "Liberal",
+      "description": "Usually reacts to one detail rather than making a grand point. Has a more distinct browsing rhythm and topic lens. Has a more distinct browsing rhythm and topic lens.",
+      "subreddits": [
+        "news",
+        "GlobalTalk",
+        "worldnews"
+      ],
+      "interest_weights": {
+        "US politics": 0.0332,
+        "world news": 0.0418,
+        "Russia-Ukraine war": 0.0227,
+        "Israel-Palestine": 0.9024
+      },
+      "style": "questioning, phone-scrolling, not polished, drift strength 0.98",
+      "stance": "does not mind leaving a rough first reaction",
+      "debate_tendency": 0.51,
+      "post_tendency": 0.577,
+      "reply_tendency": 0.78,
+      "revisit_tendency": 0.312,
+      "exploration_tendency": 0.98,
+      "brevity": 0.99,
+      "family": "E_mixed_emergent_drift",
+      "family_round": 2,
+      "family_generation": 2,
+      "llm_provider": "gemini",
+      "llm_model": "gemini-3-pro-preview",
+      "llm_temperature": 0.8,
+      "llm_reasoning_effort": "medium",
+      "graph_affinity": 0.989,
+      "notification_reactivity": 0.682
+    },
+    {
+      "user_id": "e_mixed_emergent_drift_g002_a03_b4df5853_005",
+      "user_name": "CheapHeadphones_e_mixed_emergent_drift_g2",
+      "age": 32,
+      "gender": "Male",
+      "region": "American, Arizona",
+      "education": "Master's Degree",
+      "ideology": "Moderate",
+      "description": "Reads international threads and challenges vague claims. Has a more distinct browsing rhythm and topic lens. Has a more distinct browsing rhythm and topic lens.",
+      "subreddits": [
+        "politics",
+        "PoliticalDiscussion",
+        "news"
+      ],
+      "interest_weights": {
+        "US politics": 0.8044,
+        "world news": 0.0327,
+        "Russia-Ukraine war": 0.1388,
+        "Israel-Palestine": 0.0242
+      },
+      "style": "blunt, specific, mildly sarcastic, drift strength 0.98",
+      "stance": "reacts to one detail instead of summarizing the whole story",
+      "debate_tendency": 0.68,
+      "post_tendency": 0.246,
+      "reply_tendency": 0.99,
+      "revisit_tendency": 0.393,
+      "exploration_tendency": 0.879,
+      "brevity": 0.472,
+      "family": "E_mixed_emergent_drift",
+      "family_round": 2,
+      "family_generation": 2,
+      "llm_provider": "gemini",
+      "llm_model": "gemini-3-flash-preview",
+      "llm_temperature": 0.4,
+      "llm_reasoning_effort": "medium",
+      "graph_affinity": 0.99,
+      "notification_reactivity": 0.726
+    },
+    {
+      "user_id": "e_mixed_emergent_drift_g002_a03_b4df5853_002",
+      "user_name": "DinerCoffee_e_mixed_emergent_drift_g2",
+      "age": 30,
+      "gender": "Female",
+      "region": "American, Florida",
+      "education": "Bachelor's Degree",
+      "ideology": "Liberal",
+      "description": "Reads politics and labor stories with a practical everyday tone. Has a more distinct browsing rhythm and topic lens. Has a more distinct browsing rhythm and topic lens.",
+      "subreddits": [
+        "worldnews",
+        "InternationalNews"
+      ],
+      "interest_weights": {
+        "US politics": 0.0215,
+        "world news": 0.0345,
+        "Russia-Ukraine war": 0.1389,
+        "Israel-Palestine": 0.8051
+      },
+      "style": "dry, concrete, sometimes annoyed, drift strength 0.98",
+      "stance": "trusts specifics more than official language",
+      "debate_tendency": 0.98,
+      "post_tendency": 0.01,
+      "reply_tendency": 0.6,
+      "revisit_tendency": 0.538,
+      "exploration_tendency": 0.795,
+      "brevity": 0.123,
+      "family": "E_mixed_emergent_drift",
+      "family_round": 2,
+      "family_generation": 2,
+      "llm_provider": "gemini",
+      "llm_model": "gemini-3-pro-preview",
+      "llm_temperature": 0.8,
+      "llm_reasoning_effort": "medium",
+      "graph_affinity": 0.853,
+      "notification_reactivity": 0.708
+    },
+    {
+      "user_id": "e_mixed_emergent_drift_g002_a03_b4df5853_006",
+      "user_name": "SidewalkSam_e_mixed_emergent_drift_g2",
+      "age": 22,
+      "gender": "Male",
+      "region": "Australian, Sydney",
+      "education": "Some college",
+      "ideology": "Moderate",
+      "description": "Scrolls news between shifts and reacts to one detail at a time. Has a more distinct browsing rhythm and topic lens. Has a more distinct browsing rhythm and topic lens.",
+      "subreddits": [
+        "news",
+        "GlobalTalk",
+        "worldnews"
+      ],
+      "interest_weights": {
+        "US politics": 0.0228,
+        "world news": 0.0345,
+        "Russia-Ukraine war": 0.1387,
+        "Israel-Palestine": 0.804
+      },
+      "style": "short, casual, a little uneven, drift strength 0.98",
+      "stance": "pushes back on neat framing",
+      "debate_tendency": 0.962,
+      "post_tendency": 0.01,
+      "reply_tendency": 0.963,
+      "revisit_tendency": 0.447,
+      "exploration_tendency": 0.85,
+      "brevity": 0.377,
+      "family": "E_mixed_emergent_drift",
+      "family_round": 2,
+      "family_generation": 2,
+      "llm_provider": "gemini",
+      "llm_model": "gemini-3-flash-preview",
+      "llm_temperature": 0.4,
+      "llm_reasoning_effort": "medium",
+      "graph_affinity": 0.99,
+      "notification_reactivity": 0.758
+    },
+    {
+      "user_id": "e_mixed_emergent_drift_g002_a03_b4df5853_003",
+      "user_name": "LakeErieGuy_e_mixed_emergent_drift_g2",
+      "age": 38,
+      "gender": "Male",
+      "region": "British, Manchester",
+      "education": "High School Diploma",
+      "ideology": "Conservative",
+      "description": "Blunt reader who notices whether a story sounds over-polished. Has a more distinct browsing rhythm and topic lens. Has a more distinct browsing rhythm and topic lens.",
+      "subreddits": [
+        "worldnews",
+        "InternationalNews",
+        "GlobalTalk"
+      ],
+      "interest_weights": {
+        "US politics": 0.0367,
+        "world news": 0.0353,
+        "Russia-Ukraine war": 0.8886,
+        "Israel-Palestine": 0.0394
+      },
+      "style": "short, casual, a little uneven, drift strength 0.98",
+      "stance": "does not mind leaving a rough first reaction",
+      "debate_tendency": 0.98,
+      "post_tendency": 0.657,
+      "reply_tendency": 0.958,
+      "revisit_tendency": 0.466,
+      "exploration_tendency": 0.759,
+      "brevity": 0.482,
+      "family": "E_mixed_emergent_drift",
+      "family_round": 2,
+      "family_generation": 2,
+      "llm_provider": "gemini",
+      "llm_model": "gemini-3-pro-preview",
+      "llm_temperature": 0.8,
+      "llm_reasoning_effort": "medium",
+      "graph_affinity": 0.99,
+      "notification_reactivity": 0.768
+    },
+    {
+      "user_id": "e_mixed_emergent_drift_g002_a03_b4df5853_008",
+      "user_name": "BusStopMia_e_mixed_emergent_drift_g2",
+      "age": 27,
+      "gender": "Female",
+      "region": "American, Oregon",
+      "education": "Associate Degree",
+      "ideology": "Moderate",
+      "description": "Mostly reads headlines during breaks and asks blunt questions. Has a more distinct browsing rhythm and topic lens. Has a more distinct browsing rhythm and topic lens.",
+      "subreddits": [
+        "worldnews",
+        "InternationalNews"
+      ],
+      "interest_weights": {
+        "US politics": 0.1388,
+        "world news": 0.0223,
+        "Russia-Ukraine war": 0.0342,
+        "Israel-Palestine": 0.8047
+      },
+      "style": "dry, concrete, sometimes annoyed, drift strength 0.98",
+      "stance": "pushes back on neat framing",
+      "debate_tendency": 0.536,
+      "post_tendency": 0.598,
+      "reply_tendency": 0.903,
+      "revisit_tendency": 0.346,
+      "exploration_tendency": 0.961,
+      "brevity": 0.67,
+      "family": "E_mixed_emergent_drift",
+      "family_round": 2,
+      "family_generation": 2,
+      "llm_provider": "gemini",
+      "llm_model": "gemini-3-flash-preview",
+      "llm_temperature": 0.4,
+      "llm_reasoning_effort": "medium",
+      "graph_affinity": 0.99,
+      "notification_reactivity": 0.642
+    },
+    {
+      "user_id": "e_mixed_emergent_drift_g002_a03_b4df5853_001",
+      "user_name": "PaperBagLunch_e_mixed_emergent_drift_g2",
+      "age": 43,
+      "gender": "Non-binary",
+      "region": "British, Manchester",
+      "education": "Bachelor's Degree",
+      "ideology": "Liberal",
+      "description": "Likes practical comments and gets impatient with theatrical politics. Has a more distinct browsing rhythm and topic lens. Has a more distinct browsing rhythm and topic lens.",
+      "subreddits": [
+        "worldnews",
+        "InternationalNews"
+      ],
+      "interest_weights": {
+        "US politics": 0.033,
+        "world news": 0.1394,
+        "Russia-Ukraine war": 0.0196,
+        "Israel-Palestine": 0.808
+      },
+      "style": "blunt, specific, mildly sarcastic, drift strength 0.98",
+      "stance": "pushes back on neat framing",
+      "debate_tendency": 0.43,
+      "post_tendency": 0.047,
+      "reply_tendency": 0.99,
+      "revisit_tendency": 0.381,
+      "exploration_tendency": 0.878,
+      "brevity": 0.393,
+      "family": "E_mixed_emergent_drift",
+      "family_round": 2,
+      "family_generation": 2,
+      "llm_provider": "gemini",
+      "llm_model": "gemini-3-flash-preview",
+      "llm_temperature": 0.4,
+      "llm_reasoning_effort": "medium",
+      "graph_affinity": 0.944,
+      "notification_reactivity": 0.72
+    },
+    {
+      "user_id": "e_mixed_emergent_drift_g002_a03_b4df5853_004",
+      "user_name": "RainyWindow_e_mixed_emergent_drift_g2",
+      "age": 27,
+      "gender": "Female",
+      "region": "American, Ohio",
+      "education": "Bachelor's Degree",
+      "ideology": "Moderate",
+      "description": "Follows world news but usually leaves compact replies. Has a more distinct browsing rhythm and topic lens. Has a more distinct browsing rhythm and topic lens.",
+      "subreddits": [
+        "worldnews",
+        "InternationalNews"
+      ],
+      "interest_weights": {
+        "US politics": 0.1393,
+        "world news": 0.0333,
+        "Russia-Ukraine war": 0.0202,
+        "Israel-Palestine": 0.8072
+      },
+      "style": "blunt, specific, mildly sarcastic, drift strength 0.98",
+      "stance": "does not mind leaving a rough first reaction",
+      "debate_tendency": 0.539,
+      "post_tendency": 0.335,
+      "reply_tendency": 0.51,
+      "revisit_tendency": 0.366,
+      "exploration_tendency": 0.98,
+      "brevity": 0.699,
+      "family": "E_mixed_emergent_drift",
+      "family_round": 2,
+      "family_generation": 2,
+      "llm_provider": "gemini",
+      "llm_model": "gemini-3-pro-preview",
+      "llm_temperature": 0.8,
+      "llm_reasoning_effort": "medium",
+      "graph_affinity": 0.925,
+      "notification_reactivity": 0.681
+    }
+  ],
+  "schema_version": "phase0-2",
+  "mutation_plan": {
+    "family": "E_mixed_emergent_drift",
+    "slug": "e_mixed_emergent_drift",
+    "generation": 2,
+    "attempt": 3,
+    "seed": 20262677,
+    "plan_id": "b4df58539ced",
+    "parent_family_version": "g001-a02-d3fd5dae",
+    "child_family_version": "g002-a03-b4df5853",
+    "target_axes": [
+      "language",
+      "action_behavior",
+      "graph_structure"
+    ],
+    "auxiliary_axes": [
+      "topic_content",
+      "temporal_rhythm",
+      "memory_revisit"
+    ],
+    "frozen_axes": [],
+    "axis_specs": [
+      {
+        "axis": "language",
+        "role": "target",
+        "min_target_score": 0.15,
+        "max_non_target_score": 0.45,
+        "human_gate_profile": "broad"
+      },
+      {
+        "axis": "topic_content",
+        "role": "auxiliary",
+        "min_target_score": 0.15,
+        "max_non_target_score": 0.45,
+        "human_gate_profile": "broad"
+      },
+      {
+        "axis": "persona_population",
+        "role": "watch",
+        "min_target_score": 0.15,
+        "max_non_target_score": 0.35,
+        "human_gate_profile": "broad"
+      },
+      {
+        "axis": "action_behavior",
+        "role": "target",
+        "min_target_score": 0.15,
+        "max_non_target_score": 0.45,
+        "human_gate_profile": "broad"
+      },
+      {
+        "axis": "graph_structure",
+        "role": "target",
+        "min_target_score": 0.15,
+        "max_non_target_score": 0.45,
+        "human_gate_profile": "broad"
+      },
+      {
+        "axis": "temporal_rhythm",
+        "role": "auxiliary",
+        "min_target_score": 0.15,
+        "max_non_target_score": 0.45,
+        "human_gate_profile": "broad"
+      },
+      {
+        "axis": "memory_revisit",
+        "role": "auxiliary",
+        "min_target_score": 0.15,
+        "max_non_target_score": 0.45,
+        "human_gate_profile": "broad"
+      },
+      {
+        "axis": "llm_generation",
+        "role": "watch",
+        "min_target_score": 0.15,
+        "max_non_target_score": 0.35,
+        "human_gate_profile": "broad"
+      }
+    ],
+    "axis_intensity": {
+      "language": 0.9756,
+      "topic_content": 0.4789,
+      "persona_population": 0.1106,
+      "action_behavior": 0.9567,
+      "graph_structure": 0.9739,
+      "temporal_rhythm": 0.4754,
+      "memory_revisit": 0.353,
+      "llm_generation": 0.1444
+    },
+    "target_metrics": {
+      "language": {
+        "target_drift_score_min": 0.15,
+        "nominal_strength": 0.9756
+      },
+      "action_behavior": {
+        "target_drift_score_min": 0.15,
+        "nominal_strength": 0.9567
+      },
+      "graph_structure": {
+        "target_drift_score_min": 0.15,
+        "nominal_strength": 0.9739
+      }
+    },
+    "model_pool": [
+      {
+        "provider": "gemini",
+        "model": "gemini-3-flash-preview",
+        "temperature": 0.4,
+        "reasoning_effort": "medium"
+      },
+      {
+        "provider": "gemini",
+        "model": "gemini-3-pro-preview",
+        "temperature": 0.8,
+        "reasoning_effort": "medium"
+      }
+    ],
+    "feedback": {
+      "text_pressure": 0.82,
+      "behavior_pressure": 0.86,
+      "graph_pressure": 0.81,
+      "time_pressure": 0.78,
+      "pressure": 0.88,
+      "detector_pressure": 0.2812
+    },
+    "notes": [
+      "Mutation is statistics-driven; it does not minimize detector probability.",
+      "Target axes must pass drift audit before entering detector evaluation.",
+      "Generation gain=0.220, feedback gain=0.207, feedback pressure=0.739.",
+      "Target axes are intentionally amplified to make family-level drift more visible across generations."
+    ]
+  }
+}

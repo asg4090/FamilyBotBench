@@ -1,0 +1,9 @@
+user_id,post_count,comment1_count,comment2_count,comment_count,mean_comment_words
+c_graph_drift_g002_a03_e67a6eae_001,1,0,1,1,19.0
+c_graph_drift_g002_a03_e67a6eae_002,0,2,2,4,40.0
+c_graph_drift_g002_a03_e67a6eae_003,1,1,1,2,37.0
+c_graph_drift_g002_a03_e67a6eae_004,0,1,2,3,32.333333333333336
+c_graph_drift_g002_a03_e67a6eae_005,1,2,1,3,33.333333333333336
+c_graph_drift_g002_a03_e67a6eae_006,1,1,1,2,37.0
+c_graph_drift_g002_a03_e67a6eae_007,1,0,2,2,43.5
+c_graph_drift_g002_a03_e67a6eae_008,1,0,2,2,26.0

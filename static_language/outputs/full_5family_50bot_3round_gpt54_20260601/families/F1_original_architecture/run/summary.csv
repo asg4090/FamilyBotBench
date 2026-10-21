@@ -1,0 +1,21 @@
+metric,value
+agents_created,50
+browse_events,150
+post_written,0
+comment1_written,55
+comment2_written,55
+revisit_written,35
+skip_events,0
+llm_calls,150
+llm_fallbacks,0
+notifications_created,55
+dry_run,False
+api,responses
+provider,openai
+model,gpt-5.4
+reasoning_effort,medium
+browse_count,10
+rounds,3
+generated_comment_rows,145
+behavior_summary,"{""bot_count"": 50, ""generated_post_count"": 0, ""generated_comment1_count"": 55, ""generated_comment2_count"": 90, ""generated_comment_count"": 145, ""action_counts"": {""comment1"": 55, ""comment2"": 55, ""revisit"": 40}, ""candidate_source_counts"": {""feed"": 102, ""explore"": 28, ""own_history"": 20}, ""bot_to_bot_c1"": 0, ""bot_to_human_c1"": 55, ""bot_to_bot_c2"": 61, ""bot_to_human_c2"": 29, ""bot_to_bot_total"": 61, ""bot_to_human_total"": 84, ""notification_revisit_count"": 40, ""mean_browse_count"": 10.0, ""mean_posts_per_bot"": 0.0, ""mean_comments_per_bot"": 2.9, ""mean_comment_words"": 79.94}"
+run_dir,static_language/outputs/full_5family_50bot_3round_gpt54_20260601/families/F1_original_architecture/run

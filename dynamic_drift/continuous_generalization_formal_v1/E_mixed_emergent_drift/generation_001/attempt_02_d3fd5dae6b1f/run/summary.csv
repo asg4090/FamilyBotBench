@@ -1,0 +1,26 @@
+metric,value
+agents_created,8
+browse_events,32
+post_written,1
+comment1_written,0
+comment2_written,20
+revisit_written,7
+skip_events,4
+llm_calls,29
+llm_fallbacks,0
+notifications_created,0
+dry_run,False
+api,responses
+provider,gemini
+model,mixed_per_persona
+provider_counts,"{""gemini"": 8}"
+model_counts,"{""gemini-3-flash-preview"": 4, ""gemini-3-pro-preview"": 4}"
+temperature_counts,"{""0.4"": 4, ""0.8"": 4}"
+reasoning_effort,medium
+browse_count,10
+rounds,4
+decision_mode,system_first
+generated_post_rows,1
+generated_comment_rows,27
+behavior_summary,"{""bot_count"": 8, ""generated_post_count"": 1, ""generated_comment1_count"": 0, ""generated_comment2_count"": 27, ""generated_comment_count"": 27, ""action_counts"": {""comment2"": 20, ""skip"": 4, ""revisit"": 7, ""post"": 1}, ""candidate_source_counts"": {""thread"": 21, ""skip"": 3, ""own_history"": 7, """": 1}, ""bot_to_bot_c1"": 0, ""bot_to_human_c1"": 0, ""bot_to_bot_c2"": 0, ""bot_to_human_c2"": 27, ""bot_to_bot_total"": 0, ""bot_to_human_total"": 27, ""notification_revisit_count"": 7, ""mean_browse_count"": 10.0, ""mean_posts_per_bot"": 0.125, ""mean_comments_per_bot"": 3.375, ""mean_comment_words"": 35.625}"
+run_dir,dynamic_drift/continuous_generalization_formal_v1/E_mixed_emergent_drift/generation_001/attempt_02_d3fd5dae6b1f/run

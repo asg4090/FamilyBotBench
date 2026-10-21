@@ -1,0 +1,8 @@
+{
+  "pressure": 0.125,
+  "detector_pressure": 0.125,
+  "text_pressure": 0.0625,
+  "behavior_pressure": 0.1562,
+  "graph_pressure": 0.1875,
+  "time_pressure": 0.1125
+}

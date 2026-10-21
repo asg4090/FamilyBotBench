@@ -1,0 +1,38 @@
+{
+  "schema_version": "human-behavior-audit-v1",
+  "input_root_requested": "graph_network/inputs/original_botsim_snapshot",
+  "output_dir": "graph_network/outputs/human_behavior_audit",
+  "dry_run": false,
+  "activity_source": "json",
+  "paths": {
+    "json": "graph_network/inputs/original_botsim_snapshot/BotSim-24-Dataset/user_post_comment.json",
+    "users": "graph_network/inputs/original_botsim_snapshot/BotSim-24-Dataset/Users.csv",
+    "posts": "graph_network/inputs/original_botsim_snapshot/RedditData/Posts.csv",
+    "comment_1": "graph_network/inputs/original_botsim_snapshot/RedditData/Comment_1.csv",
+    "comment_2": "graph_network/inputs/original_botsim_snapshot/RedditData/Comment_2.csv"
+  },
+  "human_selection_rule": "botsim_first_1907_users_fallback",
+  "human_fallback_note": "When label/source is unclear, this script uses the BotSim convention that the first 1907 rows of Users.csv/User.csv are human.",
+  "table_rows": {
+    "users": 2907,
+    "posts": 52643,
+    "comment_1": 74317,
+    "comment_2": 4820
+  },
+  "human_user_count": 1907,
+  "target_author_coverage": {
+    "comment1_rows": 74317,
+    "comment1_target_author_known": 73201,
+    "comment2_rows": 4820,
+    "comment2_target_author_known": 4786
+  },
+  "output_files": [
+    "human_behavior_reference.csv",
+    "human_graph_quantiles.csv",
+    "human_action_distribution.json",
+    "audit_summary.json"
+  ],
+  "warnings": [
+    "Human labels are unclear; used BotSim fallback rule: first 1907 rows of Users.csv/User.csv are human."
+  ]
+}

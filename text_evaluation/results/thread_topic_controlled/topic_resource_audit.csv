@@ -1,0 +1,9 @@
+topic,n_posts,human_comments,bot_comments,family_count_F1,family_count_F2,family_count_F3,family_count_F4,family_count_F5,eligible_for_matched,eligible_for_loto,eligible_for_leave_posts_out,skip_reason
+israel_palestine_middle_east,2299,11253,387,86,102,81,62,56,True,True,True,
+russia_ukraine_war,1476,9797,50,4,3,3,16,24,True,True,True,
+us_politics_elections,6162,29723,176,40,16,38,31,51,True,True,True,
+brazil_latin_america,20,48,12,1,1,2,4,4,False,False,False,low_resource_human=48_bot=12;post_label_coverage_low_human_posts=18_bot_posts=3
+law_crime_rights,1186,3879,57,9,11,7,29,1,True,True,True,
+global_affairs_policy,677,2041,0,0,0,0,0,0,False,False,False,low_resource_human=2041_bot=0;post_label_coverage_low_human_posts=677_bot_posts=0
+economy_health_society,226,727,0,0,0,0,0,0,False,False,False,low_resource_human=727_bot=0;post_label_coverage_low_human_posts=226_bot_posts=0
+other_or_mixed,5775,19327,56,5,17,13,8,13,True,True,True,
